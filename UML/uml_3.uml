@@ -1439,10 +1439,9 @@
 <XPD:REF name="Owner">2MwZY/o+REqYhF1nKnA47QAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[3]" type="UMLAttribute" guid="J7AD42KBTkaq2rUvacOOqAAA">
-<XPD:ATTR name="Name" type="string">horaDisponible</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">horasDisponibles</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">Disponibilidad</XPD:ATTR>
-<XPD:REF name="Type_">r6yrIHBmoUetgNT6bAyoagAA</XPD:REF>
+<XPD:ATTR name="TypeExpression" type="string">Disponibilidad&lt;List&gt;</XPD:ATTR>
 <XPD:REF name="Owner">2MwZY/o+REqYhF1nKnA47QAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[4]" type="UMLAttribute" guid="+FruVrA9Z0Wv9dxWGE3U4wAA">
@@ -1729,8 +1728,6 @@
 <XPD:REF name="Views[1]">eO8iCDCYokS3vylTL9mOJAAA</XPD:REF>
 <XPD:REF name="Views[2]">3PCoPrAjZUiV3ApL7JrCgQAA</XPD:REF>
 <XPD:REF name="Views[3]">pjYuSWL/s0W/qStInvbd7QAA</XPD:REF>
-<XPD:ATTR name="#TypedFeatures" type="integer">1</XPD:ATTR>
-<XPD:REF name="TypedFeatures[0]">J7AD42KBTkaq2rUvacOOqAAA</XPD:REF>
 <XPD:ATTR name="#Associations" type="integer">1</XPD:ATTR>
 <XPD:REF name="Associations[0]">Arhn9oC2gUuwT5ukQz49ogAA</XPD:REF>
 <XPD:ATTR name="#Attributes" type="integer">2</XPD:ATTR>
