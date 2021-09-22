@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ddD1RWHeRDNV+BKY3DcsXrF9EUpOFX89d9f0ItWOKxgAJ8yf56Lx7ehf9Pl4QGye5neG57FhDr7Xf94USBr1wQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\herna\\Desktop\\MisionTIC\\Ciclo3\\DSoftware\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Persistencia\\oficinaCovid.App.Persistencia.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\herna\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\herna\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
