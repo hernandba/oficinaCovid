@@ -1,0 +1,9 @@
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Dominio\obj\Debug\netstandard2.0\oficinaCovid.App.Dominio.csprojAssemblyReference.cache
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Dominio\obj\Debug\netstandard2.0\oficinaCovid.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Dominio\obj\Debug\netstandard2.0\oficinaCovid.App.Dominio.AssemblyInfo.cs
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Dominio\obj\Debug\netstandard2.0\oficinaCovid.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Dominio\bin\Debug\netstandard2.0\oficinaCovid.App.Dominio.deps.json
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Dominio\bin\Debug\netstandard2.0\oficinaCovid.App.Dominio.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Dominio\bin\Debug\netstandard2.0\oficinaCovid.App.Dominio.pdb
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Dominio\obj\Debug\netstandard2.0\oficinaCovid.App.Dominio.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Dominio\obj\Debug\netstandard2.0\oficinaCovid.App.Dominio.pdb
