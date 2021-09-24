@@ -4,11 +4,11 @@ namespace oficinaCovid.App.Dominio
 {
     public class Oficina
     {
-        public int Id { get; set; }
-        public string Numero { get; set; }
-        public int Aforo { get; set; }
-        public List<Disponibilidad> HorasDisponibles { get; set;}
-        public List<GobernadoAsesor> Visitantes { get; set; }
-        public SecretarioDespacho Secretario { get; set; }
+        public int id { get; set; }
+        public string numero { get; set; }
+        public int aforo { get; set; }
+        public List<Disponibilidad> horasDisponibles { get; set;}
+        public List<GobernadorAsesor> visitantes { get; set; }
+        public SecretarioDespacho secretario { get; set; }
     }
 }

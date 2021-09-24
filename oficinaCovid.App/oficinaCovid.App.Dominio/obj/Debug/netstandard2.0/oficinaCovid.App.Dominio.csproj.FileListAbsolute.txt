@@ -7,3 +7,12 @@ C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\
 C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Dominio\bin\Debug\netstandard2.0\oficinaCovid.App.Dominio.pdb
 C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Dominio\obj\Debug\netstandard2.0\oficinaCovid.App.Dominio.dll
 C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Dominio\obj\Debug\netstandard2.0\oficinaCovid.App.Dominio.pdb
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Dominio\obj\Debug\netstandard2.0\oficinaCovid.App.Dominio.csprojAssemblyReference.cache
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Dominio\obj\Debug\netstandard2.0\oficinaCovid.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Dominio\obj\Debug\netstandard2.0\oficinaCovid.App.Dominio.AssemblyInfo.cs
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Dominio\obj\Debug\netstandard2.0\oficinaCovid.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Dominio\obj\Debug\netstandard2.0\oficinaCovid.App.Dominio.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Dominio\obj\Debug\netstandard2.0\oficinaCovid.App.Dominio.pdb
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Dominio\bin\Debug\netstandard2.0\oficinaCovid.App.Dominio.deps.json
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Dominio\bin\Debug\netstandard2.0\oficinaCovid.App.Dominio.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Dominio\bin\Debug\netstandard2.0\oficinaCovid.App.Dominio.pdb
