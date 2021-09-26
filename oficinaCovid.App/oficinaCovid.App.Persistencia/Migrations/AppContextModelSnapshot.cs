@@ -38,10 +38,15 @@ namespace oficinaCovid.App.Persistencia.Migrations
                     b.Property<bool>("infectado")
                         .HasColumnType("bit");
 
+                    b.Property<int?>("personaid")
+                        .HasColumnType("int");
+
                     b.Property<int?>("sintomasid")
                         .HasColumnType("int");
 
                     b.HasKey("id");
+
+                    b.HasIndex("personaid");
 
                     b.HasIndex("sintomasid");
 
@@ -131,9 +136,6 @@ namespace oficinaCovid.App.Persistencia.Migrations
                     b.Property<string>("apellidos")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("diagnosticoid")
-                        .HasColumnType("int");
-
                     b.Property<int>("edad")
                         .HasColumnType("int");
 
@@ -147,8 +149,6 @@ namespace oficinaCovid.App.Persistencia.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("id");
-
-                    b.HasIndex("diagnosticoid");
 
                     b.ToTable("personas");
 
@@ -253,9 +253,15 @@ namespace oficinaCovid.App.Persistencia.Migrations
 
             modelBuilder.Entity("oficinaCovid.App.Dominio.Diagnostico", b =>
                 {
+                    b.HasOne("oficinaCovid.App.Dominio.Persona", "persona")
+                        .WithMany()
+                        .HasForeignKey("personaid");
+
                     b.HasOne("oficinaCovid.App.Dominio.SintomasCovid", "sintomas")
                         .WithMany()
                         .HasForeignKey("sintomasid");
+
+                    b.Navigation("persona");
 
                     b.Navigation("sintomas");
                 });
@@ -278,15 +284,6 @@ namespace oficinaCovid.App.Persistencia.Migrations
                         .HasForeignKey("secretarioid");
 
                     b.Navigation("secretario");
-                });
-
-            modelBuilder.Entity("oficinaCovid.App.Dominio.Persona", b =>
-                {
-                    b.HasOne("oficinaCovid.App.Dominio.Diagnostico", "diagnostico")
-                        .WithMany()
-                        .HasForeignKey("diagnosticoid");
-
-                    b.Navigation("diagnostico");
                 });
 
             modelBuilder.Entity("oficinaCovid.App.Dominio.GobernadorAsesor", b =>

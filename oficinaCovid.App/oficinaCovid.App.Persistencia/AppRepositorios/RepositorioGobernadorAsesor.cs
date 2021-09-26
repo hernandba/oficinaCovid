@@ -43,9 +43,9 @@ namespace oficinaCovid.App.Persistencia
         // Actualizar
         GobernadorAsesor IRepositorioGobernadorAsesor.UpdateGA(GobernadorAsesor gobernadorAsesor)
         {
-            var gobernadorEncontrado = _appContext.gobernadores.FirstOrDefault(g => g.id == gobernadorAsesor.id);
+            var gobernadorEncontrado = _appContext.gobernadores.SingleOrDefault(g => g.id == gobernadorAsesor.id);
             if (gobernadorEncontrado != null)
-            {
+            {   
                 gobernadorEncontrado.identificacion = gobernadorAsesor.identificacion;
                 gobernadorEncontrado.nombres = gobernadorAsesor.nombres;
                 gobernadorEncontrado.apellidos = gobernadorAsesor.apellidos;

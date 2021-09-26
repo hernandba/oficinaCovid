@@ -41,75 +41,6 @@ namespace oficinaCovid.App.Persistencia.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "diagnosticos",
-                columns: table => new
-                {
-                    id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    infectado = table.Column<bool>(type: "bit", nullable: false),
-                    fechaDiagnostico = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    fiasAislamiento = table.Column<int>(type: "int", nullable: false),
-                    fechaFinAislamiento = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    sintomasid = table.Column<int>(type: "int", nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_diagnosticos", x => x.id);
-                    table.ForeignKey(
-                        name: "FK_diagnosticos_sintomas_sintomasid",
-                        column: x => x.sintomasid,
-                        principalTable: "sintomas",
-                        principalColumn: "id",
-                        onDelete: ReferentialAction.Restrict);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "personas",
-                columns: table => new
-                {
-                    id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    identificacion = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    nombres = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    apellidos = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    edad = table.Column<int>(type: "int", nullable: false),
-                    genero = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    diagnosticoid = table.Column<int>(type: "int", nullable: true),
-                    Discriminator = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    rol = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Oficinaid = table.Column<int>(type: "int", nullable: true),
-                    horaIngreso = table.Column<DateTime>(type: "datetime2", nullable: true),
-                    horaSalida = table.Column<DateTime>(type: "datetime2", nullable: true),
-                    nombreEmpresa = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Gobernacionid = table.Column<int>(type: "int", nullable: true),
-                    servicioRealizado = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    PersonalProveedor_nombreEmpresa = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    PersonalProveedor_Gobernacionid = table.Column<int>(type: "int", nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_personas", x => x.id);
-                    table.ForeignKey(
-                        name: "FK_personas_diagnosticos_diagnosticoid",
-                        column: x => x.diagnosticoid,
-                        principalTable: "diagnosticos",
-                        principalColumn: "id",
-                        onDelete: ReferentialAction.Restrict);
-                    table.ForeignKey(
-                        name: "FK_personas_gobernaciones_Gobernacionid",
-                        column: x => x.Gobernacionid,
-                        principalTable: "gobernaciones",
-                        principalColumn: "id",
-                        onDelete: ReferentialAction.Restrict);
-                    table.ForeignKey(
-                        name: "FK_personas_gobernaciones_PersonalProveedor_Gobernacionid",
-                        column: x => x.PersonalProveedor_Gobernacionid,
-                        principalTable: "gobernaciones",
-                        principalColumn: "id",
-                        onDelete: ReferentialAction.Restrict);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "oficinas",
                 columns: table => new
                 {
@@ -127,12 +58,6 @@ namespace oficinaCovid.App.Persistencia.Migrations
                         name: "FK_oficinas_gobernaciones_Gobernacionid",
                         column: x => x.Gobernacionid,
                         principalTable: "gobernaciones",
-                        principalColumn: "id",
-                        onDelete: ReferentialAction.Restrict);
-                    table.ForeignKey(
-                        name: "FK_oficinas_personas_secretarioid",
-                        column: x => x.secretarioid,
-                        principalTable: "personas",
                         principalColumn: "id",
                         onDelete: ReferentialAction.Restrict);
                 });
@@ -158,6 +83,86 @@ namespace oficinaCovid.App.Persistencia.Migrations
                         onDelete: ReferentialAction.Restrict);
                 });
 
+            migrationBuilder.CreateTable(
+                name: "personas",
+                columns: table => new
+                {
+                    id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    identificacion = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    nombres = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    apellidos = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    edad = table.Column<int>(type: "int", nullable: false),
+                    genero = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Discriminator = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    rol = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Oficinaid = table.Column<int>(type: "int", nullable: true),
+                    horaIngreso = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    horaSalida = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    nombreEmpresa = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Gobernacionid = table.Column<int>(type: "int", nullable: true),
+                    servicioRealizado = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    PersonalProveedor_nombreEmpresa = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    PersonalProveedor_Gobernacionid = table.Column<int>(type: "int", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_personas", x => x.id);
+                    table.ForeignKey(
+                        name: "FK_personas_gobernaciones_Gobernacionid",
+                        column: x => x.Gobernacionid,
+                        principalTable: "gobernaciones",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "FK_personas_gobernaciones_PersonalProveedor_Gobernacionid",
+                        column: x => x.PersonalProveedor_Gobernacionid,
+                        principalTable: "gobernaciones",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "FK_personas_oficinas_Oficinaid",
+                        column: x => x.Oficinaid,
+                        principalTable: "oficinas",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "diagnosticos",
+                columns: table => new
+                {
+                    id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    personaid = table.Column<int>(type: "int", nullable: true),
+                    infectado = table.Column<bool>(type: "bit", nullable: false),
+                    fechaDiagnostico = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    fiasAislamiento = table.Column<int>(type: "int", nullable: false),
+                    fechaFinAislamiento = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    sintomasid = table.Column<int>(type: "int", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_diagnosticos", x => x.id);
+                    table.ForeignKey(
+                        name: "FK_diagnosticos_personas_personaid",
+                        column: x => x.personaid,
+                        principalTable: "personas",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "FK_diagnosticos_sintomas_sintomasid",
+                        column: x => x.sintomasid,
+                        principalTable: "sintomas",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_diagnosticos_personaid",
+                table: "diagnosticos",
+                column: "personaid");
+
             migrationBuilder.CreateIndex(
                 name: "IX_diagnosticos_sintomasid",
                 table: "diagnosticos",
@@ -179,11 +184,6 @@ namespace oficinaCovid.App.Persistencia.Migrations
                 column: "secretarioid");
 
             migrationBuilder.CreateIndex(
-                name: "IX_personas_diagnosticoid",
-                table: "personas",
-                column: "diagnosticoid");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_personas_Gobernacionid",
                 table: "personas",
                 column: "Gobernacionid");
@@ -199,10 +199,10 @@ namespace oficinaCovid.App.Persistencia.Migrations
                 column: "PersonalProveedor_Gobernacionid");
 
             migrationBuilder.AddForeignKey(
-                name: "FK_personas_oficinas_Oficinaid",
-                table: "personas",
-                column: "Oficinaid",
-                principalTable: "oficinas",
+                name: "FK_oficinas_personas_secretarioid",
+                table: "oficinas",
+                column: "secretarioid",
+                principalTable: "personas",
                 principalColumn: "id",
                 onDelete: ReferentialAction.Restrict);
         }
@@ -210,12 +210,11 @@ namespace oficinaCovid.App.Persistencia.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropForeignKey(
-                name: "FK_diagnosticos_sintomas_sintomasid",
-                table: "diagnosticos");
+                name: "FK_oficinas_personas_secretarioid",
+                table: "oficinas");
 
-            migrationBuilder.DropForeignKey(
-                name: "FK_personas_oficinas_Oficinaid",
-                table: "personas");
+            migrationBuilder.DropTable(
+                name: "diagnosticos");
 
             migrationBuilder.DropTable(
                 name: "horasDisponibles");
@@ -224,13 +223,10 @@ namespace oficinaCovid.App.Persistencia.Migrations
                 name: "sintomas");
 
             migrationBuilder.DropTable(
-                name: "oficinas");
-
-            migrationBuilder.DropTable(
                 name: "personas");
 
             migrationBuilder.DropTable(
-                name: "diagnosticos");
+                name: "oficinas");
 
             migrationBuilder.DropTable(
                 name: "gobernaciones");
