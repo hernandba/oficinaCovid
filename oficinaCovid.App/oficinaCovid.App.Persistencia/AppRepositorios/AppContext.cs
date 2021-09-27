@@ -15,6 +15,12 @@ namespace oficinaCovid.App.Persistencia
         public DbSet<Disponibilidad> horasDisponibles {get; set;}
         public DbSet<SintomasCovid> sintomas {get; set;}
         public DbSet<Diagnostico> diagnosticos {get; set;}
+        public DbSet<OficinaVisitante> oficinaVisitante {get; set;}
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<OficinaVisitante>().HasKey(x => new {x.oficinaId, x.visitanteId});
+        }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
