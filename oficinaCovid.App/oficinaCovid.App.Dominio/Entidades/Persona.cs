@@ -8,6 +8,6 @@ namespace oficinaCovid.App.Dominio
         public string Apellidos { get; set; }
         public int Edad { get; set; }
         public string Genero { set; get; }
-        public Diagnostico Diagnostico { set; get; }
+        
     }
 }

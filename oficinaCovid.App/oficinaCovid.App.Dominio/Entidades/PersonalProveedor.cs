@@ -6,5 +6,6 @@ namespace oficinaCovid.App.Dominio
     {
         public string ServicioRealizado { get; set; }
         public string nombreEmpresa { set; get; }
+        
     }
 }
