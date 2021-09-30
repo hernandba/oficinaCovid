@@ -1,6 +1,6 @@
 namespace oficinaCovid.App.Dominio
 {
-    public class SintomasCovid
+    public class Sintomatologia
     {
         public bool Fiebre {get; set;}
         public bool PerdidaOlfato {get; set;}

@@ -18,7 +18,7 @@ namespace oficinaCovid.App.Persistencia
         public DbSet<Disponibilidad> Disponibilidades { get; set; }
 
         //Funcion que configura la conexion con la base de datos
-        protected override void onConfiguring(DbContextOptionsBuilder optionsBuilder)
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
             {

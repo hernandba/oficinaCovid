@@ -2,7 +2,7 @@ using System.Collections.Generic;
 
 namespace oficinaCovid.App.Dominio
 {
-    public class SedeGobernacion
+    public class Sede
     {
         public int Id { get; set; }
         public string Barrio { get; set; }

@@ -10,6 +10,6 @@ namespace oficinaCovid.App.Dominio
         public int DiasAislamiento {get; set;}
         public DateTime FechaFinAislamiento  {get; set;}
         public Persona Persona {get; set;}
-        public Sintomas Sintomas {get; set;}
+        public Sintomatologia Sintomatologia {get; set;}
     }
 }
