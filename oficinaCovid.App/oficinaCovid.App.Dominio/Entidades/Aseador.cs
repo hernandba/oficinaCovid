@@ -2,7 +2,7 @@ using System;
 
 namespace oficinaCovid.App.Dominio
 {
-    public class PersonalAseo : Persona
+    public class Aseador : Persona
     {
         public DateTime horaIngreso {get; set;}
         public DateTime horaSalida {get; set;}
