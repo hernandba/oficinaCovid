@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kNvl4Y/yglXFliiGC70q3PtProstsp791mA9dp9uwwDjSRHp3Y+xpXt9ImLXN9Ti1vHSpBLWRt3sYCsSKmJWLQ==",
+  "dgSpecHash": "hj0E+LdXvoxz7gU8aH3F26vhWronZCs4BlNGQAjWqQWgj63MR/X4s5Fiusa5cyfDHQZrrahReiJ6Xvp1451LXw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\herna\\Desktop\\MisionTIC\\Ciclo3\\DSoftware\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Persistencia\\oficinaCovid.App.Persistencia.csproj",
+  "projectFilePath": "c:\\Users\\herna\\Desktop\\MisionTIC\\Ciclo3\\DSoftware\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Persistencia\\oficinaCovid.App.Persistencia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\herna\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\herna\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
