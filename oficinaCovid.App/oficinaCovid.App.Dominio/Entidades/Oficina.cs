@@ -7,6 +7,7 @@ namespace oficinaCovid.App.Dominio
         public int Id { get; set; }
         public string Numero { get; set; }
         public int Aforo { get; set; }
-
+        public Sede Sede { get; set; }
+        public Secretario Secretario { get; set; }
     }
 }

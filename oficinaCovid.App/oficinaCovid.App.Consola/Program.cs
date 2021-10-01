@@ -1,4 +1,5 @@
 ﻿using System;
+using oficinaCovid.App.Dominio;
 
 namespace oficinaCovid.App.Consola
 {
