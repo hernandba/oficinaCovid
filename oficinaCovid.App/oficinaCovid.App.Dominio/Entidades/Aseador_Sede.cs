@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+using System;
 
 namespace oficinaCovid.App.Dominio
 {
