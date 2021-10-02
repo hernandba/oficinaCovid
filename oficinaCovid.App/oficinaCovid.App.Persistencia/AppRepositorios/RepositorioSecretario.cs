@@ -48,7 +48,7 @@ namespace oficinaCovid.App.Persistencia
 
                 _appContext.SaveChanges();   
             }
-            return secretarioEncontrado;
+            return secretario;
         }
         // ELiminar
         bool IRepositorioSecretario.DeleteSecretario(int idSecretario)

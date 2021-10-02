@@ -34,6 +34,9 @@ namespace oficinaCovid.App.Consola
             //secretario_crud.AddSecretario();
             SecretarioDespacho secretario_ins = secretario_crud.GetSecretario(4);
             Console.WriteLine("Nombre: " + secretario_ins.nombres + " " + secretario_ins.apellidos);
+
+        // Personal de aseo
+            
         }
     }
 }
