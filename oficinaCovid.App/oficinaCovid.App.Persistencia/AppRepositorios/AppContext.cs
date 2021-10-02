@@ -19,7 +19,15 @@ namespace oficinaCovid.App.Persistencia
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<OficinaVisitante>().HasKey(x => new {x.oficinaId, x.visitanteId});
+            modelBuilder.Entity<OficinaVisitante>().HasKey(x => new 
+            {
+                x.oficinaId, x.visitanteId
+            });
+
+            modelBuilder.Entity<GobernacionProveedor>().HasKey(x => new
+            {
+                x.gobernacionId, x.proveedorId
+            });
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
