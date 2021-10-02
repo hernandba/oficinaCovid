@@ -10,8 +10,8 @@ using oficinaCovid.App.Persistencia;
 namespace oficinaCovid.App.Persistencia.Migrations
 {
     [DbContext(typeof(AppContext))]
-    [Migration("20210926042043_Inicial")]
-    partial class Inicial
+    [Migration("20211002213119_1_Migracion")]
+    partial class _1_Migracion
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -124,6 +124,21 @@ namespace oficinaCovid.App.Persistencia.Migrations
                     b.ToTable("oficinas");
                 });
 
+            modelBuilder.Entity("oficinaCovid.App.Dominio.OficinaVisitante", b =>
+                {
+                    b.Property<int>("oficinaId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("visitanteId")
+                        .HasColumnType("int");
+
+                    b.HasKey("oficinaId", "visitanteId");
+
+                    b.HasIndex("visitanteId");
+
+                    b.ToTable("oficinaVisitante");
+                });
+
             modelBuilder.Entity("oficinaCovid.App.Dominio.Persona", b =>
                 {
                     b.Property<int>("id")
@@ -212,13 +227,10 @@ namespace oficinaCovid.App.Persistencia.Migrations
                     b.Property<int?>("Gobernacionid")
                         .HasColumnType("int");
 
-                    b.Property<DateTime>("horaIngreso")
-                        .HasColumnType("datetime2");
+                    b.Property<string>("horaIngreso")
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("horaSalida")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("nombreEmpresa")
+                    b.Property<string>("horaSalida")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasIndex("Gobernacionid");
@@ -235,8 +247,7 @@ namespace oficinaCovid.App.Persistencia.Migrations
                         .HasColumnName("PersonalProveedor_Gobernacionid");
 
                     b.Property<string>("nombreEmpresa")
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("PersonalProveedor_nombreEmpresa");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("servicioRealizado")
                         .HasColumnType("nvarchar(max)");
@@ -286,6 +297,25 @@ namespace oficinaCovid.App.Persistencia.Migrations
                         .HasForeignKey("secretarioid");
 
                     b.Navigation("secretario");
+                });
+
+            modelBuilder.Entity("oficinaCovid.App.Dominio.OficinaVisitante", b =>
+                {
+                    b.HasOne("oficinaCovid.App.Dominio.Oficina", "oficina")
+                        .WithMany()
+                        .HasForeignKey("oficinaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("oficinaCovid.App.Dominio.GobernadorAsesor", "visitante")
+                        .WithMany()
+                        .HasForeignKey("visitanteId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("oficina");
+
+                    b.Navigation("visitante");
                 });
 
             modelBuilder.Entity("oficinaCovid.App.Dominio.GobernadorAsesor", b =>

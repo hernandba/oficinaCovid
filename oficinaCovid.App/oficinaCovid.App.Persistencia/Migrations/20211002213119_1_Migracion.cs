@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace oficinaCovid.App.Persistencia.Migrations
 {
-    public partial class Inicial : Migration
+    public partial class _1_Migracion : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -97,12 +97,11 @@ namespace oficinaCovid.App.Persistencia.Migrations
                     Discriminator = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     rol = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Oficinaid = table.Column<int>(type: "int", nullable: true),
-                    horaIngreso = table.Column<DateTime>(type: "datetime2", nullable: true),
-                    horaSalida = table.Column<DateTime>(type: "datetime2", nullable: true),
-                    nombreEmpresa = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    horaIngreso = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    horaSalida = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Gobernacionid = table.Column<int>(type: "int", nullable: true),
                     servicioRealizado = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    PersonalProveedor_nombreEmpresa = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    nombreEmpresa = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     PersonalProveedor_Gobernacionid = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
@@ -158,6 +157,30 @@ namespace oficinaCovid.App.Persistencia.Migrations
                         onDelete: ReferentialAction.Restrict);
                 });
 
+            migrationBuilder.CreateTable(
+                name: "oficinaVisitante",
+                columns: table => new
+                {
+                    oficinaId = table.Column<int>(type: "int", nullable: false),
+                    visitanteId = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_oficinaVisitante", x => new { x.oficinaId, x.visitanteId });
+                    table.ForeignKey(
+                        name: "FK_oficinaVisitante_oficinas_oficinaId",
+                        column: x => x.oficinaId,
+                        principalTable: "oficinas",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_oficinaVisitante_personas_visitanteId",
+                        column: x => x.visitanteId,
+                        principalTable: "personas",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
             migrationBuilder.CreateIndex(
                 name: "IX_diagnosticos_personaid",
                 table: "diagnosticos",
@@ -182,6 +205,11 @@ namespace oficinaCovid.App.Persistencia.Migrations
                 name: "IX_oficinas_secretarioid",
                 table: "oficinas",
                 column: "secretarioid");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_oficinaVisitante_visitanteId",
+                table: "oficinaVisitante",
+                column: "visitanteId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_personas_Gobernacionid",
@@ -218,6 +246,9 @@ namespace oficinaCovid.App.Persistencia.Migrations
 
             migrationBuilder.DropTable(
                 name: "horasDisponibles");
+
+            migrationBuilder.DropTable(
+                name: "oficinaVisitante");
 
             migrationBuilder.DropTable(
                 name: "sintomas");
