@@ -37,10 +37,13 @@ namespace oficinaCovid.App.Persistencia
         {
             var aseadorEncontrado = _appContext.aseadores.SingleOrDefault(x => x.id == aseador.id);
             if (aseadorEncontrado != null)
-            {
+            {   
+                aseadorEncontrado.identificacion = aseador.identificacion;
                 aseadorEncontrado.nombres = aseador.nombres;
                 aseadorEncontrado.apellidos = aseador.apellidos;
-
+                aseadorEncontrado.edad = aseador.edad;
+                aseadorEncontrado.horaIngreso = aseador.horaIngreso;
+                aseadorEncontrado.horaSalida = aseador.horaSalida;
                 _appContext.SaveChanges();
             }
 

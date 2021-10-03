@@ -2,7 +2,7 @@ using System;
 
 namespace oficinaCovid.App.Dominio
 {
-    public class GobernacionProveedor : Persona
+    public class GobernacionProveedor
     {   
         public int gobernacionId {get; set;}
         public int proveedorId {get; set;}
