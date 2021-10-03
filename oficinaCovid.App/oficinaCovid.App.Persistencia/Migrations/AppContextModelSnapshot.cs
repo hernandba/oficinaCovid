@@ -26,14 +26,14 @@ namespace oficinaCovid.App.Persistencia.Migrations
                         .HasColumnType("int")
                         .UseIdentityColumn();
 
+                    b.Property<int>("diasAislamiento")
+                        .HasColumnType("int");
+
                     b.Property<DateTime>("fechaDiagnostico")
                         .HasColumnType("datetime2");
 
                     b.Property<DateTime>("fechaFinAislamiento")
                         .HasColumnType("datetime2");
-
-                    b.Property<int>("fiasAislamiento")
-                        .HasColumnType("int");
 
                     b.Property<bool>("infectado")
                         .HasColumnType("bit");
@@ -78,7 +78,13 @@ namespace oficinaCovid.App.Persistencia.Migrations
                         .HasColumnType("int")
                         .UseIdentityColumn();
 
-                    b.Property<string>("barrio")
+                    b.Property<string>("ciudad")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("direccion")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("nombre")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("numeroOficinas")

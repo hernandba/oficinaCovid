@@ -1,0 +1,24 @@
+﻿@page
+@model oficinaCovid.App.Frontend.Pages.CrearGobernacionModel
+@{
+}
+<div class="col-md-8">
+    <form action="" method="post">
+        <input type="hidden" asp-for="gobernacion.id">
+        <div class="form-group">
+            <label asp-for="gobernacion.nombre">Gobernacion</label>
+            <input type="text" asp-for="gobernacion.nombre" class="form-control">
+        </div>
+        <div class="form-group">
+            <label asp-for="gobernacion.ciudad">Ciudad de ubicación</label>
+            <input type="text" asp-for="gobernacion.ciudad" class="form-control">
+        </div>
+        <div class="form-group">
+            <label asp-for="gobernacion.direccion">Dirección</label>
+            <input type="text" asp-for="gobernacion.direccion" class="form-control">
+        </div>
+        <div class="form-group">
+            <button class="btn btn-success">Guardar cambios</button>
+        </div>
+    </form>
+</div>
