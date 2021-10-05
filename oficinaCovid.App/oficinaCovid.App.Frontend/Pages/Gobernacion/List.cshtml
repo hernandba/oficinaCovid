@@ -1,6 +1,7 @@
 ﻿@page
 @model oficinaCovid.App.Frontend.ListModel
 @{
+    ViewData["Title"] = "Gobernaciones";
 }
 @*Hey*@
 <div class="table-responsive">
@@ -19,7 +20,7 @@
                 <tr>
                     <td>@gobernacion.id</td>
                     <td>
-                        <a asp-page="./Modulos" asp-route-gobernacionid="@gobernacion.id">@gobernacion.nombre</a>
+                        <a asp-page="../Modulos/Principal" asp-route-gobernacionid="@gobernacion.id">@gobernacion.nombre</a>
                     </td>
                     <td>@gobernacion.ciudad</td>
                     <td>@gobernacion.direccion</td>

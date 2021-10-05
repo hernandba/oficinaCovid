@@ -1,0 +1,16 @@
+﻿@page
+@model oficinaCovid.App.Frontend.Pages.PrincipalModel
+@{
+    var gobernacion = Model.gobernacion;
+    ViewData["Title"] = gobernacion.nombre;
+}
+<h1>@gobernacion.nombre</h1>
+<div class="form-group col-6 col-md-6 col-sm-6 mt-4 pl-0">
+    <select name="" id="modulos" class="form-control">
+        <option value="">Oficina</option>
+        <option value="">Personas</option>
+    </select>
+</div>
+<div id="load-forms" class="col-12 col-md-12 col-sm-12">
+</div>
+<input type="hidden" asp-for="gobernacion.id" id="gobernadorId">
