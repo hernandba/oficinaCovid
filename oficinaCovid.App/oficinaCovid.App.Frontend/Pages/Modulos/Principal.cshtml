@@ -5,11 +5,15 @@
     ViewData["Title"] = gobernacion.nombre;
 }
 <h1>@gobernacion.nombre</h1>
+<input type="hidden" asp-for="gobernacion.id" id="gobernacionid">
 <div class="form-group col-6 col-md-6 col-sm-6 mt-4 pl-0">
     <select name="" id="modulos" class="form-control">
-        <option value="">Oficina</option>
-        <option value="">Personas</option>
+        <option value="1">Oficina</option>
+        <option value="2">Personas</option>
     </select>
+    <button id="go-modulo" class="btn btn-success">Ir</button>
+</div>
+<div class="form-group">
 </div>
 <div id="load-forms" class="col-12 col-md-12 col-sm-12">
 </div>

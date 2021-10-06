@@ -16,12 +16,26 @@ namespace oficinaCovid.App.Frontend.Pages
         [BindProperty]
         public Gobernacion gobernacion {get; set;}
         [BindProperty]
+        public IEnumerable<Oficina> oficinas {get; set;}
+        [BindProperty]
         public Oficina oficina {get; set;}
 
-        public void OnGet()
+        public IActionResult OnGet(int? gobernacionid)
         {
-            gobernacion = new Gobernacion();
-            oficina = new Oficina();
+            if (gobernacionid.HasValue)
+            {   
+                oficinas = _repoOficina.GetAll();
+                gobernacion = _repoGobernacion.GetGobernacion(gobernacionid.Value);
+                
+                if (gobernacion != null)
+                {
+                    return Page();
+                } else {
+                    return RedirectToPage("../../Gobernacion/List");
+                }
+            } else {
+                return RedirectToPage("../../Gobernacion/List");
+            }
         }
     }
 }
