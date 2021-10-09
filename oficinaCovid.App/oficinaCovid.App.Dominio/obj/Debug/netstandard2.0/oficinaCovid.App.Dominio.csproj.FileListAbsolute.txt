@@ -16,3 +16,11 @@ C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\ofic
 C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Dominio\bin\Debug\netstandard2.0\oficinaCovid.App.Dominio.deps.json
 C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Dominio\bin\Debug\netstandard2.0\oficinaCovid.App.Dominio.dll
 C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Dominio\bin\Debug\netstandard2.0\oficinaCovid.App.Dominio.pdb
+E:\Julian\Descargas\Clonacion1\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Dominio\bin\Debug\netstandard2.0\oficinaCovid.App.Dominio.deps.json
+E:\Julian\Descargas\Clonacion1\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Dominio\bin\Debug\netstandard2.0\oficinaCovid.App.Dominio.dll
+E:\Julian\Descargas\Clonacion1\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Dominio\bin\Debug\netstandard2.0\oficinaCovid.App.Dominio.pdb
+E:\Julian\Descargas\Clonacion1\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Dominio\obj\Debug\netstandard2.0\oficinaCovid.App.Dominio.csprojAssemblyReference.cache
+E:\Julian\Descargas\Clonacion1\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Dominio\obj\Debug\netstandard2.0\oficinaCovid.App.Dominio.AssemblyInfoInputs.cache
+E:\Julian\Descargas\Clonacion1\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Dominio\obj\Debug\netstandard2.0\oficinaCovid.App.Dominio.AssemblyInfo.cs
+E:\Julian\Descargas\Clonacion1\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Dominio\obj\Debug\netstandard2.0\oficinaCovid.App.Dominio.dll
+E:\Julian\Descargas\Clonacion1\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Dominio\obj\Debug\netstandard2.0\oficinaCovid.App.Dominio.pdb

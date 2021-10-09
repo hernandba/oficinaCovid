@@ -5738,19 +5738,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ydhurtado\\.nuget\\packages\\": {}
+    "C:\\Users\\Julian\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ydhurtado\\Desktop\\Misiontic\\Ciclo 3\\DS-C3-18\\Proyecto\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Frontend\\oficinaCovid.App.Frontend.csproj",
+      "projectUniqueName": "E:\\Julian\\Descargas\\Clonacion1\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Frontend\\oficinaCovid.App.Frontend.csproj",
       "projectName": "oficinaCovid.App.Frontend",
-      "projectPath": "C:\\Users\\ydhurtado\\Desktop\\Misiontic\\Ciclo 3\\DS-C3-18\\Proyecto\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Frontend\\oficinaCovid.App.Frontend.csproj",
-      "packagesPath": "C:\\Users\\ydhurtado\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ydhurtado\\Desktop\\Misiontic\\Ciclo 3\\DS-C3-18\\Proyecto\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Frontend\\obj\\",
+      "projectPath": "E:\\Julian\\Descargas\\Clonacion1\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Frontend\\oficinaCovid.App.Frontend.csproj",
+      "packagesPath": "C:\\Users\\Julian\\.nuget\\packages\\",
+      "outputPath": "E:\\Julian\\Descargas\\Clonacion1\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Frontend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ydhurtado\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Julian\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5761,11 +5761,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\ydhurtado\\Desktop\\Misiontic\\Ciclo 3\\DS-C3-18\\Proyecto\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Dominio\\oficinaCovid.App.Dominio.csproj": {
-              "projectPath": "C:\\Users\\ydhurtado\\Desktop\\Misiontic\\Ciclo 3\\DS-C3-18\\Proyecto\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Dominio\\oficinaCovid.App.Dominio.csproj"
+            "E:\\Julian\\Descargas\\Clonacion1\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Dominio\\oficinaCovid.App.Dominio.csproj": {
+              "projectPath": "E:\\Julian\\Descargas\\Clonacion1\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Dominio\\oficinaCovid.App.Dominio.csproj"
             },
-            "C:\\Users\\ydhurtado\\Desktop\\Misiontic\\Ciclo 3\\DS-C3-18\\Proyecto\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Persistencia\\oficinaCovid.App.Persistencia.csproj": {
-              "projectPath": "C:\\Users\\ydhurtado\\Desktop\\Misiontic\\Ciclo 3\\DS-C3-18\\Proyecto\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Persistencia\\oficinaCovid.App.Persistencia.csproj"
+            "E:\\Julian\\Descargas\\Clonacion1\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Persistencia\\oficinaCovid.App.Persistencia.csproj": {
+              "projectPath": "E:\\Julian\\Descargas\\Clonacion1\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Persistencia\\oficinaCovid.App.Persistencia.csproj"
             }
           }
         }
@@ -5796,7 +5796,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.412\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.117\\RuntimeIdentifierGraph.json"
       }
     }
   }

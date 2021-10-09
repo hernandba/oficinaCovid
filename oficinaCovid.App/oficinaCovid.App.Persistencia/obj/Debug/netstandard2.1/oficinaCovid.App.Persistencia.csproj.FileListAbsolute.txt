@@ -10,3 +10,14 @@ C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\ofic
 C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Persistencia\bin\Debug\netstandard2.1\oficinaCovid.App.Dominio.dll
 C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Persistencia\bin\Debug\netstandard2.1\oficinaCovid.App.Dominio.pdb
 C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Persistencia\obj\Debug\netstandard2.1\oficinaCovid.App.Persistencia.csproj.CopyComplete
+E:\Julian\Descargas\Clonacion1\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Persistencia\bin\Debug\netstandard2.1\oficinaCovid.App.Persistencia.deps.json
+E:\Julian\Descargas\Clonacion1\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Persistencia\bin\Debug\netstandard2.1\oficinaCovid.App.Persistencia.dll
+E:\Julian\Descargas\Clonacion1\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Persistencia\bin\Debug\netstandard2.1\oficinaCovid.App.Persistencia.pdb
+E:\Julian\Descargas\Clonacion1\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Persistencia\bin\Debug\netstandard2.1\oficinaCovid.App.Dominio.dll
+E:\Julian\Descargas\Clonacion1\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Persistencia\bin\Debug\netstandard2.1\oficinaCovid.App.Dominio.pdb
+E:\Julian\Descargas\Clonacion1\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Persistencia\obj\Debug\netstandard2.1\oficinaCovid.App.Persistencia.csprojAssemblyReference.cache
+E:\Julian\Descargas\Clonacion1\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Persistencia\obj\Debug\netstandard2.1\oficinaCovid.App.Persistencia.AssemblyInfoInputs.cache
+E:\Julian\Descargas\Clonacion1\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Persistencia\obj\Debug\netstandard2.1\oficinaCovid.App.Persistencia.AssemblyInfo.cs
+E:\Julian\Descargas\Clonacion1\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Persistencia\obj\Debug\netstandard2.1\oficinaCovid.App.Persistencia.csproj.CopyComplete
+E:\Julian\Descargas\Clonacion1\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Persistencia\obj\Debug\netstandard2.1\oficinaCovid.App.Persistencia.dll
+E:\Julian\Descargas\Clonacion1\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Persistencia\obj\Debug\netstandard2.1\oficinaCovid.App.Persistencia.pdb
