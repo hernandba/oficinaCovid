@@ -84,3 +84,5 @@ C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\ofic
 C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Gobernacion\EliminarGobernacion.cshtml.g.cs
 C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Modulos\Oficina\Oficina.cshtml.g.cs
 C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Modulos\Principal.cshtml.g.cs
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Modulos\Oficina\List.cshtml.g.cs
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Modulos\Oficina\EliminarOficina.cshtml.g.cs

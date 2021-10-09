@@ -2,23 +2,9 @@
 @model oficinaCovid.App.Frontend.Pages.OficinaModel
 @{
 }
-<h3 id="hey">Módulo de oficinas</h3>
-<table class="table table-hover">
-    <thead>
-        <th>Número</th>
-        <th>Aforo</th>
-        <th>Secretario</th>
-    </thead>
-    <tbody>
-        @foreach (var oficina in Model.oficinas)
-        {
-            <tr>@oficina.numero</tr>
-            <tr>@oficina.aforo</tr>
-            <tr>@oficina.secretario</tr>
-        }
-    </tbody>
-</table>
 <form action="" method="post" class="col-6 col-md-6 col-sm-6 mt-3">
+    <input type="hidden" asp-for="gobernacion.id">
+    <input type="hidden" asp-for="oficina.id">
     <div class="form-group">
         <input asp-for="gobernacion.nombre" id="gobernacion" class="form-control" disabled />
     </div>
@@ -35,6 +21,6 @@
         <select asp-for="oficina.secretario" id="secretarios" class="form-control"></select>
     </div>
     <div class="form-group">
-        <button class="btn btn-success">Agregar oficina</button>
+        <button type="submit" class="btn btn-success">Agregar oficina</button>
     </div>
 </form>

@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using oficinaCovid.App.Dominio;
@@ -18,13 +19,18 @@ namespace oficinaCovid.App.Persistencia
             return _appContext.oficinas;
         }
 
+        IEnumerable<Oficina> IRepositorioOficina.GetOficinasGobernacion(Gobernacion gobernacion)
+        {
+            return _appContext.oficinas.Where(x => x.gobernacion == gobernacion);
+        }
+
         Oficina IRepositorioOficina.GetOficina(int oficinaId)
         {
             var oficinaEncontrada = _appContext.oficinas.FirstOrDefault(x => x.id == oficinaId);
             return oficinaEncontrada;
         }
 
-        Oficina IRepositorioOficina.AddOficina(Oficina oficina)
+        Oficina IRepositorioOficina.AddOficina(Oficina oficina, Gobernacion gobernacion)
         {
             var oficinaAgregada = _appContext.oficinas.Add(oficina);
             _appContext.SaveChanges();
@@ -37,8 +43,8 @@ namespace oficinaCovid.App.Persistencia
             if (oficinaEncontrada != null)
             {
                 oficinaEncontrada.numero = oficina.numero;
-                oficinaEncontrada.gobernacion = oficina.gobernacion;
-                oficinaEncontrada.secretario = oficina.secretario;
+                oficinaEncontrada.gobernacion = gobernacion;
+                oficinaEncontrada.secretario = secretario;
                 oficinaEncontrada.aforo = oficina.aforo;
                 _appContext.SaveChanges();
             }

@@ -13,7 +13,7 @@ $(document).ready(function () {
         var principalContainer = $('#load-forms');
         var gobernacionid = $('#gobernacionid').val();
         if (modulo == 1) {
-            window.location.href = "/Modulos/Oficina/Oficina?gobernacionid="+gobernacionid;
+            window.location.href = "/Modulos/Oficina/List?gobernacionid="+gobernacionid;
         } else if (modulo == 2){
             principalContainer.html("Hello");
         }

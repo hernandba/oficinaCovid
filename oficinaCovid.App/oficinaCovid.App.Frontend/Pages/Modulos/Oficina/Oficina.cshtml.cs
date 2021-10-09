@@ -4,8 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using oficinaCovid.App.Dominio;
 using oficinaCovid.App.Persistencia;
+using oficinaCovid.App.Dominio;
 
 namespace oficinaCovid.App.Frontend.Pages
 {
@@ -20,22 +20,50 @@ namespace oficinaCovid.App.Frontend.Pages
         [BindProperty]
         public Oficina oficina {get; set;}
 
-        public IActionResult OnGet(int? gobernacionid)
+        public IActionResult OnGet(int? oficinaid, int? gobernacionid)
         {
-            if (gobernacionid.HasValue)
+            gobernacion = _repoGobernacion.GetGobernacion(gobernacionid.Value);
+            if (oficinaid.HasValue)
             {   
-                oficinas = _repoOficina.GetAll();
-                gobernacion = _repoGobernacion.GetGobernacion(gobernacionid.Value);
-                
-                if (gobernacion != null)
-                {
-                    return Page();
-                } else {
-                    return RedirectToPage("../../Gobernacion/List");
-                }
-            } else {
-                return RedirectToPage("../../Gobernacion/List");
+                oficina = _repoOficina.GetOficina(oficinaid.Value);
             }
+            else
+            {
+                oficina = new Oficina();
+            }
+
+            if (oficina == null)
+            {
+                return RedirectToPage("./List");
+            }
+
+            return Page();
+        }
+
+        public IActionResult OnPost()
+        {
+            if (!ModelState.IsValid)
+            {
+                return Page();
+            }
+            else 
+            {
+                if (oficina.id > 0)
+                {
+                    gobernacion = _repoGobernacion.GetGobernacion(gobernacion.id);
+                    _repoOficina.UpdateOficina(oficina, gobernacion, null);
+                }
+                else
+                {
+                    gobernacion = _repoGobernacion.GetGobernacion(gobernacion.id);
+                    _repoOficina.AddOficina(oficina, gobernacion);
+                    _repoOficina.UpdateOficina(oficina, gobernacion, null);
+                } 
+                Object routeValue = new {gobernacionid= gobernacion.id};
+                return RedirectToPage("./List", routeValue);
+            }
+
+           
         }
     }
 }
