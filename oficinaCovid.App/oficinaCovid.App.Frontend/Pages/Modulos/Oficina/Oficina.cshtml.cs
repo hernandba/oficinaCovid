@@ -31,7 +31,6 @@ namespace oficinaCovid.App.Frontend.Pages
         public SecretarioDespacho secretario {get; set;}
         public IActionResult OnGet(int? oficinaid, int? gobernacionid)
         {
-            gobernacion = null;
             gobernacion = _repoGobernacion.GetGobernacion(gobernacionid.Value);
             secretarios = _repoSecretario.GetAllSecretarioGobernacion(gobernacion);
             if (oficinaid.HasValue)
@@ -71,11 +70,7 @@ namespace oficinaCovid.App.Frontend.Pages
                 {
                     gobernacion = _repoGobernacion.GetGobernacion(gobernacion.id);
                     secretario = _repoSecretario.GetSecretario(secretario.id);
-                    _repoOficina.AddOficina(oficina);
-                    if (secretario == null)
-                    {
-                        _repoOficina.UpdateOficina(oficina, gobernacion, null);
-                    }
+                    _repoOficina.AddOficina(oficina, gobernacion);
                     _repoOficina.UpdateOficina(oficina, gobernacion, secretario);
                 } 
                 Object routeValue = new {gobernacionid= gobernacion.id};
