@@ -11,7 +11,7 @@ namespace oficinaCovid.App.Frontend.Pages
 {
     public class EliminarGobernacionModel : PageModel
     {
-        private static IRepositorioGobernacion _repoGobernacion = new RepositorioGobernacion(new oficinaCovid.App.Persistencia.AppContext());
+        private readonly IRepositorioGobernacion _repoGobernacion = new RepositorioGobernacion(new oficinaCovid.App.Persistencia.AppContext());
         [BindProperty]
         public Gobernacion gobernacion {get; set;}
 

@@ -8,7 +8,7 @@ namespace oficinaCovid.App.Persistencia
         IEnumerable<Oficina> GetAll();
         IEnumerable<Oficina> GetOficinasGobernacion(Gobernacion gobernacion);
         Oficina GetOficina(int oficinaId);
-        Oficina AddOficina(Oficina oficina, Gobernacion gobernacion);
+        Oficina AddOficina(Oficina oficina);
         Oficina UpdateOficina(Oficina oficina, Gobernacion gobernacion, SecretarioDespacho secretario);
         bool DeleteOficina(int oficinaId);
     }

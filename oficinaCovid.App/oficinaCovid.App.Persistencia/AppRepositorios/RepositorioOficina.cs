@@ -30,7 +30,7 @@ namespace oficinaCovid.App.Persistencia
             return oficinaEncontrada;
         }
 
-        Oficina IRepositorioOficina.AddOficina(Oficina oficina, Gobernacion gobernacion)
+        Oficina IRepositorioOficina.AddOficina(Oficina oficina)
         {
             var oficinaAgregada = _appContext.oficinas.Add(oficina);
             _appContext.SaveChanges();

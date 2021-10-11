@@ -259,6 +259,11 @@ namespace oficinaCovid.App.Persistencia.Migrations
                 {
                     b.HasBaseType("oficinaCovid.App.Dominio.Persona");
 
+                    b.Property<int?>("gobernacionid")
+                        .HasColumnType("int");
+
+                    b.HasIndex("gobernacionid");
+
                     b.HasDiscriminator().HasValue("SecretarioDespacho");
                 });
 
@@ -328,6 +333,15 @@ namespace oficinaCovid.App.Persistencia.Migrations
                     b.Navigation("oficina");
 
                     b.Navigation("visitante");
+                });
+
+            modelBuilder.Entity("oficinaCovid.App.Dominio.SecretarioDespacho", b =>
+                {
+                    b.HasOne("oficinaCovid.App.Dominio.Gobernacion", "gobernacion")
+                        .WithMany()
+                        .HasForeignKey("gobernacionid");
+
+                    b.Navigation("gobernacion");
                 });
 #pragma warning restore 612, 618
         }

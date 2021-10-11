@@ -17,10 +17,22 @@
         <input type="number" asp-for="oficina.aforo" class="form-control">
     </div>
     <div class="form-group">
-        <label asp-for="oficina.secretario">Secretario</label>
-        <select asp-for="oficina.secretario" id="secretarios" class="form-control"></select>
+        <label asp-for="secretario.id">Secretario</label>
+        <select asp-for="secretario.id" class="form-control">
+            
+            @if (@Model.secretario != null)
+            {
+                <option value="secretario.id" selected>@Model.secretario.nombres @Model.secretario.apellidos</option>
+            } else {
+                <option value="" selected>Selecciona un(a) secretario(a)</option>
+            }
+            @foreach (var secretario in Model.secretarios)
+            {
+                <option value="@secretario.id">@secretario.nombres @secretario.apellidos</option>
+            }
+        </select>
     </div>
     <div class="form-group">
-        <button type="submit" class="btn btn-success">Agregar oficina</button>
+        <button type="submit" class="btn btn-success">Guardar cambios</button>
     </div>
 </form>

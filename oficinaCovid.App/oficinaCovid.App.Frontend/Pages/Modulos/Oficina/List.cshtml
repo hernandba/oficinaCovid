@@ -1,0 +1,36 @@
+﻿@page
+@model oficinaCovid.App.Frontend.Pages.ListModel
+@{
+    var gobernacionid = Model.gobernacion.id;
+
+}
+<div class="table-responsive">
+    <table class="table table-hover">
+        <thead>
+            <th>Número</th>
+            <th>Aforo</th>
+            <th>Editar</th>
+            <th>Eliminar</th>
+        </thead>
+        <tbody>
+            @foreach (var oficina in Model.oficinas)
+            {
+                <tr>
+                    <td>@oficina.numero</td>
+                    <td>@oficina.aforo</td>
+                    <td>
+                        <a class="btn btn-primary" asp-page="./Oficina" asp-route-oficinaid="@oficina.id" asp-route-gobernacionid="@gobernacionid">
+                            <i class="fas fa-edit" aria-hidden="true"></i>
+                        </a>
+                    </td>
+                    <td>
+                        <a class="btn btn-danger" asp-page="./EliminarOficina" asp-route-oficinaid="@oficina.id" asp-route-gobernacionid="@gobernacionid">
+                            <i class="fas fa-trash-alt" aria-hidden="true"></i>
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<a class="btn btn-success" asp-page="./Oficina" asp-route-gobernacionid="@gobernacionid">Crear oficina</a>
