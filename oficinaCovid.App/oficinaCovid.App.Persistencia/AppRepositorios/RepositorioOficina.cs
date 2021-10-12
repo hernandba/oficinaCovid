@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
 using oficinaCovid.App.Dominio;
 
 namespace oficinaCovid.App.Persistencia
@@ -37,9 +38,11 @@ namespace oficinaCovid.App.Persistencia
             return oficinaAgregada.Entity;
         }
 
-        Oficina IRepositorioOficina.UpdateOficina(Oficina oficina, Gobernacion gobernacion, SecretarioDespacho secretario)
-        {
+        Oficina IRepositorioOficina.UpdateOficina(Oficina oficina, int gobernacionid, int secretarioid)
+        {   
             var oficinaEncontrada = _appContext.oficinas.FirstOrDefault(x => x.id == oficina.id);
+            var gobernacion = _appContext.gobernaciones.FirstOrDefault(x => x.id == gobernacionid);
+            var secretario = _appContext.secretarios.FirstOrDefault(x => x.id == secretarioid);
             if (oficinaEncontrada != null)
             {
                 oficinaEncontrada.numero = oficina.numero;

@@ -20,7 +20,7 @@
         <label asp-for="secretario.id">Secretario</label>
         <select asp-for="secretario.id" class="form-control">
             
-            @if (@Model.secretario != null)
+            @if (Model.secretario != null)
             {
                 <option value="secretario.id" selected>@Model.secretario.nombres @Model.secretario.apellidos</option>
             } else {

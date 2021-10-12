@@ -36,7 +36,6 @@ namespace oficinaCovid.App.Frontend.Pages
             if (oficinaid.HasValue)
             {   
                 oficina = _repoOficina.GetOficina(oficinaid.Value);
-                secretario = _repoSecretario.GetSecretarioOficina(oficina);
             }
             else
             {
@@ -45,37 +44,42 @@ namespace oficinaCovid.App.Frontend.Pages
             }
 
             if (oficina == null)
-            {
-                return RedirectToPage("./List");
+            {   
+                Object routeValue = new {gobernacionid= gobernacion.id};
+                return RedirectToPage("./List", routeValue);
             }
+            
+            secretario = _repoSecretario.GetSecretarioOficina(oficina);
 
             return Page();
         }
 
         public IActionResult OnPost()
         {
-            if (!ModelState.IsValid)
-            {
-                return Page();
-            }
-            else 
-            {
+                int idgobernacion = gobernacion.id;
+                int idsecretario = secretario.id;
+                Console.WriteLine("Id gobernacion: " + idgobernacion);
+                Console.WriteLine("Id secretario: "+ idsecretario);
+
                 if (oficina.id > 0)
                 {
-                    gobernacion = _repoGobernacion.GetGobernacion(gobernacion.id);
-                    secretario = _repoSecretario.GetSecretario(secretario.id);
-                    _repoOficina.UpdateOficina(oficina, gobernacion, secretario);
+                    /*gobernacion = _repoGobernacion.GetGobernacion(idgobernacion);
+                    secretario = _repoSecretario.GetSecretario(idsecretario);*/
+                    _repoOficina.UpdateOficina(oficina, idgobernacion, idsecretario);
                 }
                 else
                 {
-                    gobernacion = _repoGobernacion.GetGobernacion(gobernacion.id);
-                    secretario = _repoSecretario.GetSecretario(secretario.id);
+                    /*gobernacion = _repoGobernacion.GetGobernacion(idgobernacion);
+                    secretario = _repoSecretario.GetSecretario(idsecretario);*/
                     _repoOficina.AddOficina(oficina, gobernacion);
-                    _repoOficina.UpdateOficina(oficina, gobernacion, secretario);
+                    _repoOficina.UpdateOficina(oficina, idgobernacion, idsecretario);
                 } 
-                Object routeValue = new {gobernacionid= gobernacion.id};
+                Console.WriteLine("Gobernacion: " + gobernacion.nombre + " - " + gobernacion.ciudad);
+                if (secretario != null)
+                    Console.WriteLine("Secretario: C.C. " + secretario.identificacion + " - " + secretario.nombres + " " + secretario.apellidos);
+                Object routeValue = new {gobernacionid= idgobernacion};
                 return RedirectToPage("./List", routeValue);
-            }
+            
 
            
         }
