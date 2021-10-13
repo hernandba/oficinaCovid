@@ -4,7 +4,6 @@ namespace oficinaCovid.App.Dominio
 {
     public class Secretario : Persona
     {
-        
 
     }
 }
