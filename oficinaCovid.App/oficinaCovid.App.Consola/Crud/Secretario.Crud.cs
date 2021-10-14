@@ -30,16 +30,17 @@ namespace oficinaCovid.App.Consola.Crud
                 nombres = "Nicol",
                 apellidos = "Valencia",
                 edad = 19,
-                genero = "Femenino"
+                genero = "Femenino",
+                gobernacion = null
             };
             _repSecretario.AddSecretario(secretario);
         }
 
-        public string UpdateSecretario(SecretarioDespacho secretario)
+        public string UpdateSecretario(SecretarioDespacho secretario, Gobernacion gobernacion)
         {
             secretario.nombres = "Nicol Andrea";
             secretario.apellidos = "Valencia Martinez";
-            secretario = _repSecretario.UpdateSecretario(secretario);
+            secretario = _repSecretario.UpdateSecretario(secretario, gobernacion);
             if (secretario == null)
                 return "No se pudo actualizar";
             

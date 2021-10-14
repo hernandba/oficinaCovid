@@ -24,13 +24,13 @@ namespace oficinaCovid.App.Consola.Crud
             _repoAseador.AddAseador(aseador);
         }
 
-        public string UpdateAseador(PersonalAseo aseador)
+        public string UpdateAseador(PersonalAseo aseador, Gobernacion gobernacion)
         {
             aseador.nombres = "Benjamin Alonso";
             aseador.apellidos = "Hernandez Perez";
             aseador.horaIngreso = "8:00 AM";
             aseador.horaSalida = "6:00 PM";
-            aseador = _repoAseador.UpdateAseador(aseador);
+            aseador = _repoAseador.UpdateAseador(aseador, gobernacion.id);
             if (aseador == null)
                 return "No se pudo actualizar.";
             return "Aseador actualizado con exito.";

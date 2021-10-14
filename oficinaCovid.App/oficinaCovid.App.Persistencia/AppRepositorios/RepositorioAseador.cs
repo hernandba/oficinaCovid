@@ -15,9 +15,23 @@ namespace oficinaCovid.App.Persistencia
 
         // CRUD
 
-        IEnumerable<PersonalAseo> IRepositorioAseador.GetAllPersonalAseo()
-        {
-            return _appContext.aseadores;
+        IEnumerable<PersonalAseo> IRepositorioAseador.GetAllPersonalAseo(int gobernacionid)
+        {   
+            IEnumerable<PersonalAseo> aseadoreEncontrados = (from a in _appContext.aseadores
+                                    join g in _appContext.gobernaciones on a.gobernacion equals g
+                                    where g.id == gobernacionid
+                                    select new PersonalAseo{
+                                        id = a.id,
+                                        identificacion = a.identificacion,
+                                        nombres = a.nombres,
+                                        apellidos = a.apellidos,
+                                        edad = a.edad,
+                                        genero = a.genero,
+                                        horaIngreso = a.horaIngreso,
+                                        horaSalida = a.horaSalida,
+                                        gobernacion = a.gobernacion
+                                    });
+            return aseadoreEncontrados;
         }
 
         PersonalAseo IRepositorioAseador.GetAseador(int aseadorId)
@@ -33,9 +47,10 @@ namespace oficinaCovid.App.Persistencia
             return aseadorAgregado.Entity;
         }
 
-        PersonalAseo IRepositorioAseador.UpdateAseador(PersonalAseo aseador)
+        PersonalAseo IRepositorioAseador.UpdateAseador(PersonalAseo aseador, int gobernacionid)
         {
             var aseadorEncontrado = _appContext.aseadores.SingleOrDefault(x => x.id == aseador.id);
+            Gobernacion gobernacion = _appContext.gobernaciones.FirstOrDefault(x => x.id == gobernacionid);
             if (aseadorEncontrado != null)
             {   
                 aseadorEncontrado.identificacion = aseador.identificacion;
@@ -44,6 +59,7 @@ namespace oficinaCovid.App.Persistencia
                 aseadorEncontrado.edad = aseador.edad;
                 aseadorEncontrado.horaIngreso = aseador.horaIngreso;
                 aseadorEncontrado.horaSalida = aseador.horaSalida;
+                aseadorEncontrado.gobernacion = gobernacion;
                 _appContext.SaveChanges();
             }
 

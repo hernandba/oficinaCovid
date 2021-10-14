@@ -6,5 +6,6 @@ namespace oficinaCovid.App.Dominio
     {
         public string horaIngreso {get; set;}
         public string horaSalida {get; set;}
+        public Gobernacion gobernacion {get; set;}
     }
 }

@@ -56,32 +56,28 @@ namespace oficinaCovid.App.Frontend.Pages
 
         public IActionResult OnPost()
         {
-                int idgobernacion = gobernacion.id;
-                int idsecretario = secretario.id;
-                Console.WriteLine("Id gobernacion: " + idgobernacion);
-                Console.WriteLine("Id secretario: "+ idsecretario);
+            int idgobernacion = gobernacion.id;
+            int idsecretario = secretario.id;
+            Console.WriteLine("Id gobernacion: " + idgobernacion);
+            Console.WriteLine("Id secretario: "+ idsecretario);
 
-                if (oficina.id > 0)
-                {
-                    /*gobernacion = _repoGobernacion.GetGobernacion(idgobernacion);
+            if (oficina.id > 0)
+            {
+                /*gobernacion = _repoGobernacion.GetGobernacion(idgobernacion);
                     secretario = _repoSecretario.GetSecretario(idsecretario);*/
-                    _repoOficina.UpdateOficina(oficina, idgobernacion, idsecretario);
-                }
-                else
-                {
-                    /*gobernacion = _repoGobernacion.GetGobernacion(idgobernacion);
-                    secretario = _repoSecretario.GetSecretario(idsecretario);*/
+                _repoOficina.UpdateOficina(oficina, idgobernacion, idsecretario);
+            }
+            else
+            {
+                /*gobernacion = _repoGobernacion.GetGobernacion(idgobernacion);
+                secretario = _repoSecretario.GetSecretario(idsecretario);*/
                     _repoOficina.AddOficina(oficina, gobernacion);
-                    _repoOficina.UpdateOficina(oficina, idgobernacion, idsecretario);
-                } 
-                Console.WriteLine("Gobernacion: " + gobernacion.nombre + " - " + gobernacion.ciudad);
-                if (secretario != null)
+                _repoOficina.UpdateOficina(oficina, idgobernacion, idsecretario);
+            } 
+            if (secretario != null)
                     Console.WriteLine("Secretario: C.C. " + secretario.identificacion + " - " + secretario.nombres + " " + secretario.apellidos);
-                Object routeValue = new {gobernacionid= idgobernacion};
-                return RedirectToPage("./List", routeValue);
-            
-
-           
+            Object routeValue = new {gobernacionid= idgobernacion};
+            return RedirectToPage("./List", routeValue);           
         }
     }
 }

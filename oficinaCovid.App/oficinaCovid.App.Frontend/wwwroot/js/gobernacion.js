@@ -16,6 +16,8 @@ $(document).ready(function () {
             window.location.href = "/Modulos/Oficina/List?gobernacionid="+gobernacionid;
         } else if (modulo == 2){
             window.location.href = "/Modulos/Secretario/List?gobernacionid="+gobernacionid;
+        } else if (modulo == 3){
+            window.location.href = "/Modulos/PersonalAseo/List?gobernacionid="+gobernacionid;
         }
     });
 });

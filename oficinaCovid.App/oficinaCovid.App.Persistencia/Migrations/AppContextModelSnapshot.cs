@@ -233,11 +233,16 @@ namespace oficinaCovid.App.Persistencia.Migrations
                 {
                     b.HasBaseType("oficinaCovid.App.Dominio.Persona");
 
+                    b.Property<int?>("gobernacionid")
+                        .HasColumnType("int");
+
                     b.Property<string>("horaIngreso")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("horaSalida")
                         .HasColumnType("nvarchar(max)");
+
+                    b.HasIndex("gobernacionid");
 
                     b.HasDiscriminator().HasValue("PersonalAseo");
                 });
@@ -260,7 +265,8 @@ namespace oficinaCovid.App.Persistencia.Migrations
                     b.HasBaseType("oficinaCovid.App.Dominio.Persona");
 
                     b.Property<int?>("gobernacionid")
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("SecretarioDespacho_gobernacionid");
 
                     b.HasIndex("gobernacionid");
 
@@ -333,6 +339,15 @@ namespace oficinaCovid.App.Persistencia.Migrations
                     b.Navigation("oficina");
 
                     b.Navigation("visitante");
+                });
+
+            modelBuilder.Entity("oficinaCovid.App.Dominio.PersonalAseo", b =>
+                {
+                    b.HasOne("oficinaCovid.App.Dominio.Gobernacion", "gobernacion")
+                        .WithMany()
+                        .HasForeignKey("gobernacionid");
+
+                    b.Navigation("gobernacion");
                 });
 
             modelBuilder.Entity("oficinaCovid.App.Dominio.SecretarioDespacho", b =>
