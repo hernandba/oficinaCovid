@@ -8,7 +8,7 @@ namespace oficinaCovid.App.Dominio
         public string Apellidos { get; set; }
         public int Edad { get; set; }
         public string Genero { set; get; }
-        public Diagnostico<List> Diagnosticos { set; get; }
+        public System.Collections.Generic.List<Diagnostico> Diagnosticos { set; get; }
         
     }
 }

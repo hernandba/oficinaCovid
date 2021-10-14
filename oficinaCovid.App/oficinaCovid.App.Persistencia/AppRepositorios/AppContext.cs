@@ -13,27 +13,13 @@ namespace oficinaCovid.App.Persistencia
         public DbSet<Proveedor> Proveedores { get; set; }
         public DbSet<Administrativo> Administrativos { get; set; }
         public DbSet<Secretario> Secretarios { get; set; }
-        public DbSet<Sede> Sedes { get; set; }
+        public DbSet<Gobernacion> Gobernaciones { get; set; }
         public DbSet<Oficina> Oficinas { get; set; }
-        public DbSet<Disponibilidad> Disponibilidades { get; set; }
-        public DbSet<Administrativo_Oficina> Administrativos_Oficinas { get; set; }
-        public DbSet<Aseador_Sede> Aseadores_Sedes { get; set; }
-        public DbSet<Proveedor_Sede> Proveedores_Sedes { get; set; }
+        public DbSet<Visita> Visitas { get; set; }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<Administrativo_Oficina>(eb => {
-                eb.HasNoKey();
-            });
-
-            modelBuilder.Entity<Aseador_Sede>(eb => {
-                eb.HasNoKey();
-            });
-            
-            modelBuilder.Entity<Proveedor_Sede>(eb => {
-                eb.HasNoKey();
-            });
-        }
+        // protected override void OnModelCreating(ModelBuilder modelBuilder)
+        // {
+        // }
 
         //Funcion que configura la conexion con la base de datos
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
