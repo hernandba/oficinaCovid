@@ -58,7 +58,6 @@ c:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\
 c:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\oficinaCovid.App.Persistencia.dll
 c:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\oficinaCovid.App.Dominio.pdb
 c:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\oficinaCovid.App.Persistencia.pdb
-c:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\obj\Debug\netcoreapp3.1\oficinaCovid.App.Consola.csprojAssemblyReference.cache
 c:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\obj\Debug\netcoreapp3.1\oficinaCovid.App.Consola.AssemblyInfoInputs.cache
 c:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\obj\Debug\netcoreapp3.1\oficinaCovid.App.Consola.AssemblyInfo.cs
 c:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\obj\Debug\netcoreapp3.1\oficinaCovid.App.Consola.csproj.CoreCompileInputs.cache
@@ -66,3 +65,5 @@ c:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\
 c:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\obj\Debug\netcoreapp3.1\oficinaCovid.App.Consola.dll
 c:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\obj\Debug\netcoreapp3.1\oficinaCovid.App.Consola.pdb
 c:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\obj\Debug\netcoreapp3.1\oficinaCovid.App.Consola.genruntimeconfig.cache
+c:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\obj\Debug\netcoreapp3.1\oficinaCovid.App.Consola.csproj.AssemblyReference.cache
+c:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\obj\Debug\netcoreapp3.1\oficinaCovid.App.Consola.GeneratedMSBuildEditorConfig.editorconfig

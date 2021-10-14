@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eQw7LeBFg0bvfE/ecerozx9/g1M4U8o2dq27QKO5ywzgrb0JXOj7qfWy7UK4/zibMigSH4tPH8Pzru+sB7n6CQ==",
+  "dgSpecHash": "/HMszdMGz2wiEPblTHD9QPjkVoYK9yn22xvAt0aPfxQCUH3BJP+pR1705AF27U9vCZi1Eqo4gyzvQScPkh5bKg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\herna\\Desktop\\MisionTIC\\Ciclo3\\DSoftware\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Dominio\\oficinaCovid.App.Dominio.csproj",
+  "projectFilePath": "c:\\Users\\herna\\Desktop\\MisionTIC\\Ciclo3\\DSoftware\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Dominio\\oficinaCovid.App.Dominio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\herna\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\herna\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

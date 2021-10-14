@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\herna\\Desktop\\MisionTIC\\Ciclo3\\DSoftware\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Persistencia\\oficinaCovid.App.Persistencia.csproj": {}
+    "c:\\Users\\herna\\Desktop\\MisionTIC\\Ciclo3\\DSoftware\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Persistencia\\oficinaCovid.App.Persistencia.csproj": {}
   },
   "projects": {
-    "C:\\Users\\herna\\Desktop\\MisionTIC\\Ciclo3\\DSoftware\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Dominio\\oficinaCovid.App.Dominio.csproj": {
+    "c:\\Users\\herna\\Desktop\\MisionTIC\\Ciclo3\\DSoftware\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Dominio\\oficinaCovid.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\herna\\Desktop\\MisionTIC\\Ciclo3\\DSoftware\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Dominio\\oficinaCovid.App.Dominio.csproj",
+        "projectUniqueName": "c:\\Users\\herna\\Desktop\\MisionTIC\\Ciclo3\\DSoftware\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Dominio\\oficinaCovid.App.Dominio.csproj",
         "projectName": "oficinaCovid.App.Dominio",
-        "projectPath": "C:\\Users\\herna\\Desktop\\MisionTIC\\Ciclo3\\DSoftware\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Dominio\\oficinaCovid.App.Dominio.csproj",
+        "projectPath": "c:\\Users\\herna\\Desktop\\MisionTIC\\Ciclo3\\DSoftware\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Dominio\\oficinaCovid.App.Dominio.csproj",
         "packagesPath": "C:\\Users\\herna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\herna\\Desktop\\MisionTIC\\Ciclo3\\DSoftware\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Dominio\\obj\\",
+        "outputPath": "c:\\Users\\herna\\Desktop\\MisionTIC\\Ciclo3\\DSoftware\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\herna\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -59,14 +59,14 @@
         }
       }
     },
-    "C:\\Users\\herna\\Desktop\\MisionTIC\\Ciclo3\\DSoftware\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Persistencia\\oficinaCovid.App.Persistencia.csproj": {
+    "c:\\Users\\herna\\Desktop\\MisionTIC\\Ciclo3\\DSoftware\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Persistencia\\oficinaCovid.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\herna\\Desktop\\MisionTIC\\Ciclo3\\DSoftware\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Persistencia\\oficinaCovid.App.Persistencia.csproj",
+        "projectUniqueName": "c:\\Users\\herna\\Desktop\\MisionTIC\\Ciclo3\\DSoftware\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Persistencia\\oficinaCovid.App.Persistencia.csproj",
         "projectName": "oficinaCovid.App.Persistencia",
-        "projectPath": "C:\\Users\\herna\\Desktop\\MisionTIC\\Ciclo3\\DSoftware\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Persistencia\\oficinaCovid.App.Persistencia.csproj",
+        "projectPath": "c:\\Users\\herna\\Desktop\\MisionTIC\\Ciclo3\\DSoftware\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Persistencia\\oficinaCovid.App.Persistencia.csproj",
         "packagesPath": "C:\\Users\\herna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\herna\\Desktop\\MisionTIC\\Ciclo3\\DSoftware\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Persistencia\\obj\\",
+        "outputPath": "c:\\Users\\herna\\Desktop\\MisionTIC\\Ciclo3\\DSoftware\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\herna\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -81,8 +81,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Users\\herna\\Desktop\\MisionTIC\\Ciclo3\\DSoftware\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Dominio\\oficinaCovid.App.Dominio.csproj": {
-                "projectPath": "C:\\Users\\herna\\Desktop\\MisionTIC\\Ciclo3\\DSoftware\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Dominio\\oficinaCovid.App.Dominio.csproj"
+              "c:\\Users\\herna\\Desktop\\MisionTIC\\Ciclo3\\DSoftware\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Dominio\\oficinaCovid.App.Dominio.csproj": {
+                "projectPath": "c:\\Users\\herna\\Desktop\\MisionTIC\\Ciclo3\\DSoftware\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Dominio\\oficinaCovid.App.Dominio.csproj"
               }
             }
           }
