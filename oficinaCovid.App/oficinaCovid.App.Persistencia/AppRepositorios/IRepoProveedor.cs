@@ -1,0 +1,15 @@
+using System.Collections.Generic;
+using oficinaCovid.App.Dominio;
+
+namespace  oficinaCovid.App.Persistencia
+{
+    //Las interfaces contienen "las firmas" de todos los metodos que se van a implementar
+    public interface IRepoProveedor
+    {
+        IEnumerable<Proveedor> GetAllProveedores();
+        Proveedor AddProveedor(Proveedor proveedor);
+        Proveedor GetProveedor(int idProveedor);
+        Proveedor UpdateProveedor(Proveedor proveedor);
+        void DeleteProveedor(int idProveedor);
+    }
+}
