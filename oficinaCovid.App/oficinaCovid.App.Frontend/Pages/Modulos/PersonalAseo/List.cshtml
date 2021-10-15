@@ -1,0 +1,41 @@
+﻿@page
+@model oficinaCovid.App.Frontend.Pages.AseadoresListModel
+@{
+    ViewData["Title"] = "Personal de aseo";
+    var gobernacionid = Model.gobernacion.id;
+}
+
+<div class="table-responsive">
+    <table class="table-sm table-hover">
+        <thead>
+            <th>Identificación</th>
+            <th>Nombre</th>
+            <th>Hora de ingreso</th>
+            <th>Hora de salida</th>
+            <th>Editar</th>
+            <th>Eliminar</th>
+        </thead>
+        <tbody>
+            @foreach (var aseador in Model.aseadores)
+            {
+                <tr>
+                    <td>@aseador.identificacion</td>
+                    <td>@aseador.nombres @aseador.apellidos</td>
+                    <td>@aseador.horaIngreso</td>
+                    <td>@aseador.horaSalida</td>
+                    <td>
+                        <a asp-page="./PersonalAseo" asp-route-aseadorid="@aseador.id" asp-route-gobernacionid="@gobernacionid" class="btn btn-primary">
+                            <i class="fas fa-edit" aria-hidden="true"></i>
+                        </a>
+                    </td>
+                    <td>
+                        <a asp-page="./Eliminar" asp-route-aseadorid="@aseador.id" asp-route-gobernacionid="@gobernacionid" class="btn btn-danger">
+                            <i class="fas fa-trash-alt" aria-hidden="true"></i>
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<a asp-page="./PersonalAseo" asp-route-gobernacionid="@gobernacionid" class="btn btn-success mt-2">Registrar</a>

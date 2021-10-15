@@ -14407,6 +14407,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\ydhurtado\\Desktop\\Misiontic\\Ciclo 3\\DS-C3-18\\Proyecto\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Frontend\\Pages\\Modulos\\Gobernador\\Eliminar.cshtml",
+      "TargetPath": "Pages\\Modulos\\Gobernador\\Eliminar.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\ydhurtado\\Desktop\\Misiontic\\Ciclo 3\\DS-C3-18\\Proyecto\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Frontend\\Pages\\Modulos\\Oficina\\List.cshtml",
       "TargetPath": "Pages\\Modulos\\Oficina\\List.cshtml",
       "FileKind": "mvc"
@@ -14419,6 +14424,11 @@
     {
       "FilePath": "c:\\Users\\ydhurtado\\Desktop\\Misiontic\\Ciclo 3\\DS-C3-18\\Proyecto\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Frontend\\Pages\\Gobernacion\\List.cshtml",
       "TargetPath": "Pages\\Gobernacion\\List.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ydhurtado\\Desktop\\Misiontic\\Ciclo 3\\DS-C3-18\\Proyecto\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Frontend\\Pages\\Modulos\\Gobernador\\List.cshtml",
+      "TargetPath": "Pages\\Modulos\\Gobernador\\List.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14494,6 +14504,11 @@
     {
       "FilePath": "c:\\Users\\ydhurtado\\Desktop\\Misiontic\\Ciclo 3\\DS-C3-18\\Proyecto\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Frontend\\Pages\\Modulos\\PersonalAseo\\PersonalAseo.cshtml",
       "TargetPath": "Pages\\Modulos\\PersonalAseo\\PersonalAseo.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ydhurtado\\Desktop\\Misiontic\\Ciclo 3\\DS-C3-18\\Proyecto\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Frontend\\Pages\\Modulos\\Gobernador\\Gobernador.cshtml",
+      "TargetPath": "Pages\\Modulos\\Gobernador\\Gobernador.cshtml",
       "FileKind": "mvc"
     },
     {

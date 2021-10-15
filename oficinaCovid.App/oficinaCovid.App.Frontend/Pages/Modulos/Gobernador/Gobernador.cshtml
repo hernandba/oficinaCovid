@@ -1,0 +1,46 @@
+﻿@page
+@model oficinaCovid.App.Frontend.Pages.GobernadorModel
+@{
+    ViewData["Title"] = "Gobernadores y asesores";
+}
+<div class="col-md-8">
+    <form action="" method="post">
+        <input type="hidden" asp-for="gobernacion.id">
+        <input type="hidden" asp-for="gobernador.id">
+        <div class="form-group">
+            <label asp-for="gobernador.identificacion">Identificación</label>
+            <input type="text" asp-for="gobernador.identificacion" class="form-control">
+        </div>
+        <div class="form-group">
+            <label asp-for="gobernador.nombres">Nombres</label>
+            <input type="text" asp-for="gobernador.nombres" class="form-control">
+        </div>
+        <div class="form-group">
+            <label asp-for="gobernador.apellidos">Apellidos</label>
+            <input type="text" asp-for="gobernador.apellidos" class="form-control">
+        </div>
+        <div class="form-group">
+            <label asp-for="gobernador.edad">Edad</label>
+            <input type="number" asp-for="gobernador.edad" class="form-control">
+        </div>
+        <div class="form-group">
+            <label asp-for="gobernador.genero">Genero</label>
+            <select asp-for="gobernador.genero" class="form-control">
+                <option value="">Seleccione el genero</option>
+                <option value="Femenino">Femenino</option>
+                <option value="Masculino">Masculino</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label asp-for="gobernador.rol">Rol
+                
+            </label>
+            <select asp-for="gobernador.rol" class="form-control">
+                <option value="">Seleccione el genero</option>
+                <option value="Gobernador">Gobernador</option>
+                <option value="Asesor">Asesor</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-success">Guardar cambios</button>
+    </form>
+</div>
