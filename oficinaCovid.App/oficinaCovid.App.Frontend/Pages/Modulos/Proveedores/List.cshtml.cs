@@ -15,12 +15,17 @@ namespace oficinaCovid.App.Frontend.Pages
         private readonly IRepositorioGobernacion _repoGobernacion = new RepositorioGobernacion(new oficinaCovid.App.Persistencia.AppContext());
 
         [BindProperty]
+        public IEnumerable<PersonalProveedor> proveedores {get; set;}
+        
+        [BindProperty]
         public PersonalProveedor proveedor {get; set;}
         
         [BindProperty]
         public Gobernacion gobernacion {get; set;}
-        public void OnGet()
+        public IActionResult OnGet()
         {
+            proveedores = _repoProveedor.GetAll();
+            return Page();
         }
     }
 }
