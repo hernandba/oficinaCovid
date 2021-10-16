@@ -14407,6 +14407,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\ydhurtado\\Desktop\\Misiontic\\Ciclo 3\\DS-C3-18\\Proyecto\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Frontend\\Pages\\Modulos\\Proveedores\\Eliminar.cshtml",
+      "TargetPath": "Pages\\Modulos\\Proveedores\\Eliminar.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\ydhurtado\\Desktop\\Misiontic\\Ciclo 3\\DS-C3-18\\Proyecto\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Frontend\\Pages\\Modulos\\Gobernador\\Eliminar.cshtml",
       "TargetPath": "Pages\\Modulos\\Gobernador\\Eliminar.cshtml",
       "FileKind": "mvc"
@@ -14424,6 +14429,11 @@
     {
       "FilePath": "c:\\Users\\ydhurtado\\Desktop\\Misiontic\\Ciclo 3\\DS-C3-18\\Proyecto\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Frontend\\Pages\\Gobernacion\\List.cshtml",
       "TargetPath": "Pages\\Gobernacion\\List.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ydhurtado\\Desktop\\Misiontic\\Ciclo 3\\DS-C3-18\\Proyecto\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Frontend\\Pages\\Modulos\\Proveedores\\List.cshtml",
+      "TargetPath": "Pages\\Modulos\\Proveedores\\List.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14469,6 +14479,11 @@
     {
       "FilePath": "c:\\Users\\ydhurtado\\Desktop\\Misiontic\\Ciclo 3\\DS-C3-18\\Proyecto\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Frontend\\Pages\\Modulos\\Secretario\\EliminarSecretario.cshtml",
       "TargetPath": "Pages\\Modulos\\Secretario\\EliminarSecretario.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ydhurtado\\Desktop\\Misiontic\\Ciclo 3\\DS-C3-18\\Proyecto\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Frontend\\Pages\\Modulos\\Proveedores\\Proveedores.cshtml",
+      "TargetPath": "Pages\\Modulos\\Proveedores\\Proveedores.cshtml",
       "FileKind": "mvc"
     },
     {

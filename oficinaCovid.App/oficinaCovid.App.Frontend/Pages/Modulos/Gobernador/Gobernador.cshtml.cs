@@ -22,25 +22,27 @@ namespace oficinaCovid.App.Frontend.Pages
 
         [BindProperty]
         public Gobernacion gobernacion {get; set;}
+        
         public IActionResult OnGet(int? gobernadorid, int? gobernacionid)
         {   
-            if (gobernacion.HasValue){
+            if (gobernacionid.HasValue){
                 gobernacion = _repoGobernacion.GetGobernacion(gobernacionid.Value);
                 if (gobernacion != null)
-                {
-                    gobernador = _repoGobernador.GetGA(gobernadorid.Value);
-                    Object routeValue = new {gobernacionid = gobernacion.id};
-                    
-                    if (gobernador == null)
+                {   
+                    if (gobernadorid.HasValue)
                     {
-                        gobernador = new GobernadorAsesor();
-                        return RedirectToPage("./List", routeValue);
+                        gobernador = _repoGobernador.GetGA(gobernadorid.Value);
+                        if (gobernador != null)
+                        {
+                            Object routeValue = new {gobernacionid = gobernacion.id};
+                            gobernador = new GobernadorAsesor(); 
+                        }
                     }
+                    
                     return Page();
                 }
-                return RedirectToPage("../../Gobernacion/List");
             }
-            return Page();
+            return RedirectToPage("../../Gobernacion/List");
         }
 
         public IActionResult OnPost()
