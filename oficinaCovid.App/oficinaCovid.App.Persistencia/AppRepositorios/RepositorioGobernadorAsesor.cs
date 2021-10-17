@@ -15,9 +15,22 @@ namespace oficinaCovid.App.Persistencia
 
         // CRUD
         // Obtiene todos los gobernadores / Asesores
-        IEnumerable<GobernadorAsesor> IRepositorioGobernadorAsesor.GetAll()
+        IEnumerable<GobernadorAsesor> IRepositorioGobernadorAsesor.GetAll(int gobernacionid)
         {
-            return _appContext.gobernadores;
+            IEnumerable<GobernadorAsesor> gobernadores = (from gb in _appContext.gobernadores
+                                                          join g in _appContext.gobernaciones on gb.gobernacion equals g
+                                                          where g.id == gobernacionid
+                                                          select new GobernadorAsesor{
+                                                                id = gb.id,
+                                                                identificacion = gb.identificacion,
+                                                                nombres = gb.nombres,
+                                                                apellidos = gb.apellidos,
+                                                                edad = gb.edad,
+                                                                genero = gb.genero,
+                                                                rol = gb.rol,
+                                                                gobernacion = gb.gobernacion
+                                                          });
+            return gobernadores;
         }
 
         // Obtiene a todos dependiendo del rol
@@ -41,8 +54,9 @@ namespace oficinaCovid.App.Persistencia
             return gobAseAdicionado.Entity;
         }
         // Actualizar
-        GobernadorAsesor IRepositorioGobernadorAsesor.UpdateGA(GobernadorAsesor gobernadorAsesor)
-        {
+        GobernadorAsesor IRepositorioGobernadorAsesor.UpdateGA(GobernadorAsesor gobernadorAsesor, int gobernacionID)
+        {   
+            Gobernacion gobernacion = _appContext.gobernaciones.FirstOrDefault(x => x.id == gobernacionID);
             var gobernadorEncontrado = _appContext.gobernadores.SingleOrDefault(g => g.id == gobernadorAsesor.id);
             if (gobernadorEncontrado != null)
             {   
@@ -52,6 +66,7 @@ namespace oficinaCovid.App.Persistencia
                 gobernadorEncontrado.edad = gobernadorAsesor.edad;
                 gobernadorEncontrado.genero = gobernadorAsesor.genero;
                 gobernadorEncontrado.rol = gobernadorAsesor.rol;
+                gobernadorEncontrado.gobernacion = gobernacion;
 
                 _appContext.SaveChanges();   
             }

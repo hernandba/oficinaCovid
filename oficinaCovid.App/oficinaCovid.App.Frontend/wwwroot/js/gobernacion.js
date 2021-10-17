@@ -20,6 +20,8 @@ $(document).ready(function () {
             window.location.href = "/Modulos/PersonalAseo/List?gobernacionid="+gobernacionid;
         } else if (modulo == 4){
             window.location.href = "/Modulos/Gobernador/List?gobernacionid="+gobernacionid;
+        } else if (modulo == 5){
+            window.location.href = "/Modulos/GobernacionesProveedores/List?gobernacionid="+gobernacionid;
         }
     });
 });

@@ -7,7 +7,7 @@ namespace oficinaCovid.App.Persistencia
     {
         // CRUD
         // Obtiene todos los gobernadores / Asesores
-        IEnumerable<GobernadorAsesor> GetAll();
+        IEnumerable<GobernadorAsesor> GetAll(int gobernacionid);
         // Obtiene a todos dependiendo del rol
         IEnumerable<GobernadorAsesor> GetAllGobAse(string rol);
         // Obtiene solo uno
@@ -15,7 +15,7 @@ namespace oficinaCovid.App.Persistencia
         // Guardar en la base de datos
         GobernadorAsesor AddGA(GobernadorAsesor gobernadorAsesor);
         // Actualizar
-        GobernadorAsesor UpdateGA(GobernadorAsesor gobernadorAsesor);
+        GobernadorAsesor UpdateGA(GobernadorAsesor gobernadorAsesor, int gobernacionID);
         // ELiminar
         bool DeleteGA(int idGobernadorAsesor);
     }

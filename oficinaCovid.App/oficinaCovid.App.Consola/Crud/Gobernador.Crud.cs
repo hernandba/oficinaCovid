@@ -31,7 +31,8 @@ namespace oficinaCovid.App.Consola.Crud
                 apellidos = "Gonzalez",
                 edad = 21,
                 genero = "Femenino",
-                rol = "Gobernador"
+                rol = "Gobernador",
+                gobernacion = null
             };
             _repoGobernador.AddGA(gobernador);
         }
@@ -40,7 +41,7 @@ namespace oficinaCovid.App.Consola.Crud
         {
             gobernador.nombres = "Karen Lizeth";
             gobernador.apellidos = "González Viera";
-            gobernador = _repoGobernador.UpdateGA(gobernador);
+            //gobernador = _repoGobernador.UpdateGA(gobernador, null);
             if (gobernador == null)
                 return "No se pudo actualizar";
             

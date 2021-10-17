@@ -107,7 +107,7 @@ namespace oficinaCovid.App.Persistencia.Migrations
 
                     b.HasIndex("proveedorId");
 
-                    b.ToTable("GobernacionProveedor");
+                    b.ToTable("proveedoresGobernacion");
                 });
 
             modelBuilder.Entity("oficinaCovid.App.Dominio.Oficina", b =>
@@ -223,8 +223,13 @@ namespace oficinaCovid.App.Persistencia.Migrations
                 {
                     b.HasBaseType("oficinaCovid.App.Dominio.Persona");
 
+                    b.Property<int?>("gobernacionid")
+                        .HasColumnType("int");
+
                     b.Property<string>("rol")
                         .HasColumnType("nvarchar(max)");
+
+                    b.HasIndex("gobernacionid");
 
                     b.HasDiscriminator().HasValue("GobernadorAsesor");
                 });
@@ -234,7 +239,8 @@ namespace oficinaCovid.App.Persistencia.Migrations
                     b.HasBaseType("oficinaCovid.App.Dominio.Persona");
 
                     b.Property<int?>("gobernacionid")
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("PersonalAseo_gobernacionid");
 
                     b.Property<string>("horaIngreso")
                         .HasColumnType("nvarchar(max)");
@@ -339,6 +345,15 @@ namespace oficinaCovid.App.Persistencia.Migrations
                     b.Navigation("oficina");
 
                     b.Navigation("visitante");
+                });
+
+            modelBuilder.Entity("oficinaCovid.App.Dominio.GobernadorAsesor", b =>
+                {
+                    b.HasOne("oficinaCovid.App.Dominio.Gobernacion", "gobernacion")
+                        .WithMany()
+                        .HasForeignKey("gobernacionid");
+
+                    b.Navigation("gobernacion");
                 });
 
             modelBuilder.Entity("oficinaCovid.App.Dominio.PersonalAseo", b =>

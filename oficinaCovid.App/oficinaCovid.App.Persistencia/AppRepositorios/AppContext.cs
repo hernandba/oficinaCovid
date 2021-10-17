@@ -16,6 +16,7 @@ namespace oficinaCovid.App.Persistencia
         public DbSet<SintomasCovid> sintomas {get; set;}
         public DbSet<Diagnostico> diagnosticos {get; set;}
         public DbSet<OficinaVisitante> oficinaVisitante {get; set;}
+        public DbSet<GobernacionProveedor> proveedoresGobernacion {get; set;}
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
