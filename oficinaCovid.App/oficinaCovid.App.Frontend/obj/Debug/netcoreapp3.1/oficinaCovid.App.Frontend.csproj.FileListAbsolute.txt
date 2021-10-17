@@ -101,3 +101,6 @@ C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\ofic
 C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Modulos\GobernacionesProveedores\EliminarRelacion.cshtml.g.cs
 C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Modulos\GobernacionesProveedores\List.cshtml.g.cs
 C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Modulos\GobernacionesProveedores\ProveedoresGobernaciones.cshtml.g.cs
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Modulos\Diagnostico\Diagnostico.cshtml.g.cs
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Modulos\Diagnostico\DiagnosticoList.cshtml.g.cs
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Modulos\Diagnostico\EliminarDiagnostico.cshtml.g.cs

@@ -20,7 +20,11 @@
             {
                 <tr>
                     <td>@aseador.identificacion</td>
-                    <td>@aseador.nombres @aseador.apellidos</td>
+                    <td>
+                        <a asp-page="../Diagnostico/DiagnosticoList" asp-route-personaid="@aseador.id">
+                            @aseador.nombres @aseador.apellidos
+                        </a>
+                    </td>
                     <td>@aseador.horaIngreso</td>
                     <td>@aseador.horaSalida</td>
                     <td>

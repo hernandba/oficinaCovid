@@ -7,6 +7,7 @@ namespace oficinaCovid.App.Persistencia
     {
         IEnumerable<SintomasCovid> GetAll();
         SintomasCovid GetSintomas(int sintomasId);
+        SintomasCovid GetSintomasInDiagnostico(int diagnosticoID);
         SintomasCovid AddSintomas(SintomasCovid sintomas);
         SintomasCovid UpdateSintomas(SintomasCovid sintomas);
         bool DeleteSintomas(int sintomasId);

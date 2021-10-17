@@ -38,11 +38,6 @@ namespace oficinaCovid.App.Persistencia
                                                                             gobernacion = s.gobernacion
                                                                         }
                                                                     );
-
-            foreach (var secretario in secretariosEncontrados)
-            {
-                Console.WriteLine(secretario.nombres);
-            }
             return secretariosEncontrados;
         }
 

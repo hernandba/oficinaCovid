@@ -19,7 +19,11 @@
             {
                 <tr>
                     <td>@proveedor.identificacion</td>
-                    <td>@proveedor.nombres @proveedor.apellidos</td>
+                    <td>
+                        <a asp-page="../Diagnostico/DiagnosticoList" asp-route-personaid="@proveedor.id">
+                            @proveedor.nombres @proveedor.apellidos
+                        </a>
+                    </td>
                     <td>@proveedor.nombreEmpresa</td>
                     <td>
                         <a asp-page="./Proveedores" asp-route-proveedorid="@proveedor.id" class="btn btn-primary">

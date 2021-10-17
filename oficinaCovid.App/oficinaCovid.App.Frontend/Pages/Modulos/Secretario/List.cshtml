@@ -8,7 +8,6 @@
     <thead>
         <th>Identificación</th>
         <th>Nombre</th>
-        <th>Apellido</th>
         <th>Edad</th>
         <th>Editar</th>
         <th>Eliminar</th>
@@ -18,8 +17,11 @@
         {
             <tr>
                 <td>@secretario.identificacion</td>
-                <td>@secretario.nombres</td>
-                <td>@secretario.apellidos</td>
+                <td>
+                    <a asp-page="../Diagnostico/DiagnosticoList" asp-route-personaid="@secretario.id">
+                        @secretario.nombres @secretario.apellidos
+                    </a>
+                </td>
                 <td>@secretario.edad</td>
                 <td>
                     <a asp-page="./Secretario" asp-route-secretarioid="@secretario.id" asp-route-gobernacionid="@gobernacionid" class="btn btn-primary">

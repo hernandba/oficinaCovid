@@ -19,7 +19,11 @@
             {
                 <tr>
                     <td>@gobernador.identificacion</td>
-                    <td>@gobernador.nombres @gobernador.apellidos</td>
+                    <td>
+                        <a asp-page="../Diagnostico/DiagnosticoList" asp-route-personaid="@gobernador.id">
+                            @gobernador.nombres @gobernador.apellidos
+                        </a>
+                    </td>
                     <td>@gobernador.rol</td>
                     <td>
                         <a asp-page="./Gobernador" asp-route-gobernacionid="@gobernacionid" asp-route-gobernadorid="@gobernador.id" class="btn btn-primary">

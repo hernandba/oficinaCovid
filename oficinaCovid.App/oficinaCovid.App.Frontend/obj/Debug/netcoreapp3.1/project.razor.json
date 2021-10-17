@@ -14462,8 +14462,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\ydhurtado\\Desktop\\Misiontic\\Ciclo 3\\DS-C3-18\\Proyecto\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Frontend\\Pages\\Modulos\\Diagnostico\\DiagnosticoList.cshtml",
+      "TargetPath": "Pages\\Modulos\\Diagnostico\\DiagnosticoList.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\ydhurtado\\Desktop\\Misiontic\\Ciclo 3\\DS-C3-18\\Proyecto\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Frontend\\Pages\\Modulos\\Secretario\\List.cshtml",
       "TargetPath": "Pages\\Modulos\\Secretario\\List.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ydhurtado\\Desktop\\Misiontic\\Ciclo 3\\DS-C3-18\\Proyecto\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Frontend\\Pages\\Modulos\\Diagnostico\\EliminarDiagnostico.cshtml",
+      "TargetPath": "Pages\\Modulos\\Diagnostico\\EliminarDiagnostico.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14534,6 +14544,11 @@
     {
       "FilePath": "c:\\Users\\ydhurtado\\Desktop\\Misiontic\\Ciclo 3\\DS-C3-18\\Proyecto\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Frontend\\Pages\\Modulos\\PersonalAseo\\PersonalAseo.cshtml",
       "TargetPath": "Pages\\Modulos\\PersonalAseo\\PersonalAseo.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ydhurtado\\Desktop\\Misiontic\\Ciclo 3\\DS-C3-18\\Proyecto\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Frontend\\Pages\\Modulos\\Diagnostico\\Diagnostico.cshtml",
+      "TargetPath": "Pages\\Modulos\\Diagnostico\\Diagnostico.cshtml",
       "FileKind": "mvc"
     },
     {

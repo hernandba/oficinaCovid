@@ -23,6 +23,24 @@ namespace oficinaCovid.App.Persistencia
             var sintomasEncontrado = _appContext.sintomas.FirstOrDefault(x => x.id == sintomasId);
             return sintomasEncontrado;
         }
+        
+        SintomasCovid IRepositorioSintomas.GetSintomasInDiagnostico(int diagnosticoID)
+        {
+            SintomasCovid sintomas = (from s in _appContext.sintomas
+                                      join d in _appContext.diagnosticos on s equals d.sintomas
+                                      where d.id == diagnosticoID
+                                      select new SintomasCovid{
+                                          id = s.id,
+                                          fiebre = s.fiebre,
+                                          perdidaOlfato = s.perdidaOlfato,
+                                          perdidaGusto = s.perdidaGusto,
+                                          tosSeca = s.tosSeca,
+                                          desaliento = s.desaliento,
+                                          dolorGarganta = s.dolorGarganta,
+                                          dificultadRespirar = s.dificultadRespirar
+                                      }).FirstOrDefault();
+            return sintomas;
+        }
 
         SintomasCovid IRepositorioSintomas.AddSintomas(SintomasCovid sintomas)
         {
