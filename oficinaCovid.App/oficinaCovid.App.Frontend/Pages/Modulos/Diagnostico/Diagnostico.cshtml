@@ -1,0 +1,65 @@
+﻿@page
+@model oficinaCovid.App.Frontend.Pages.DiagnosticoModel
+@{
+    ViewData["Title"] = "Diagnóstico";
+    var nombre = Model.nombrePersona;
+}
+<h3 class="mb-2">Diagnóstico</h3>
+<div class="col-md-8">
+    <form action="" method="post">
+        <input type="hidden" asp-for="personaID">
+        <input type="hidden" asp-for="diagnostico.id">
+        <input type="hidden" asp-for="sintomas.id">
+        <div class="form-group">
+            <input type="text" class="form-control" value="@nombre" disabled>
+        </div>
+        <div class="form-group">
+            <label asp-for="diagnostico.fechaDiagnostico">Fecha del diagnóstico</label>
+            <input type="date" asp-for="diagnostico.fechaDiagnostico" class="form-control">
+        </div>
+        <div class="form-check p-2">
+            <input type="checkbox" asp-for="diagnostico.infectado" class="form-check-input">
+            <label asp-for="diagnostico.infectado" class="form-check-label">¿Infectado?</label>
+        </div>
+        <div class="form-group">
+            <label asp-for="diagnostico.diasAislamiento">Días de aislamiento</label>
+            <input type="number" class="form-control" asp-for="diagnostico.diasAislamiento">
+        </div>
+        <div class="form-group">
+            <label asp-for="diagnostico.fechaFinAislamiento">Fin de aislamiento</label>
+            <input type="date" asp-for="diagnostico.fechaFinAislamiento" class="form-control">
+        </div>
+        <div class="col-md-8">
+            <h4>Sintomas</h4>
+            <div class="form-check mt-1">
+                <input type="checkbox" asp-for="sintomas.fiebre" class="form-check-input">
+                <label asp-for="sintomas.fiebre" class="form-check-label">Fiebre</label>
+            </div>
+            <div class="form-check mt-1">
+                <input type="checkbox" asp-for="sintomas.perdidaOlfato" class="form-check-input">
+                <label asp-for="sintomas.perdidaOlfato" class="form-check-label">Perdida del olfato</label>
+            </div>
+            <div class="form-check mt-1">
+                <input type="checkbox" asp-for="sintomas.perdidaGusto" class="form-check-input">
+                <label asp-for="sintomas.perdidaGusto" class="form-check-label">Perdida del gusto</label>
+            </div>
+            <div class="form-check mt-1">
+                <input type="checkbox" asp-for="sintomas.tosSeca" class="form-check-input">
+                <label asp-for="sintomas.tosSeca" class="form-check-label">Tos seca</label>
+            </div>
+            <div class="form-check mt-1">
+                <input type="checkbox" asp-for="sintomas.desaliento" class="form-check-input">
+                <label asp-for="sintomas.desaliento" class="form-check-label">Desaliento</label>
+            </div>
+            <div class="form-check mt-1">
+                <input type="checkbox" asp-for="sintomas.dolorGarganta" class="form-check-input">
+                <label asp-for="sintomas.dolorGarganta" class="form-check-label">Dolor de garganta</label>
+            </div>
+            <div class="form-check mt-1">
+                <input type="checkbox" asp-for="sintomas.dificultadRespirar" class="form-check-input">
+                <label asp-for="sintomas.dificultadRespirar" class="form-check-label">Dificultad para respirar</label>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-success mt-2">Guardar cambios</button>
+    </form>
+</div>
