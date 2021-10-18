@@ -1,0 +1,38 @@
+﻿@page
+@model oficinaCovid.App.Frontend.Pages.DiagnosticoListModel
+@{
+    ViewData["Title"] = "Diagnósticos";
+}
+<h3>Diagnósticos</h3>
+<div class="table-responsive">
+    <table class="table table-hover">
+        <thead>
+            <th>Id</th>
+            <th>Estado</th>
+            <th>Fecha del diagnóstico</th>
+            <th>Editar</th>
+            <th>Eliminar</th>
+        </thead>
+        <tbody>
+            @foreach (var diagnostico in Model.diagnosticos)
+            {
+                <tr>
+                    <td>@diagnostico.id</td>
+                    <td>@(diagnostico.infectado ?  "Infectado" : "No infectado")</td>
+                    <td>@diagnostico.fechaDiagnostico.ToString("dd/MM/yyyy")</td>
+                    <td>
+                        <a asp-page="./Diagnostico" asp-route-diagnosticoid="@diagnostico.id" asp-route-personaid="@Model.personaID" class="btn btn-primary">
+                            <i class="fas fa-edit" aria-hidden="true"></i>
+                        </a>
+                    </td>
+                    <td>
+                        <a asp-page="./EliminarDiagnostico" asp-route-diagnosticoid="@diagnostico.id" asp-route-personaid="@Model.personaID" class="btn btn-danger">
+                            <i class="fas fa-trash-alt" aria-hidden="true"></i>
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<a asp-page="./Diagnostico" asp-route-personaid="@Model.personaID" class="btn btn-success mt-2">Nuevo diagnóstico</a>

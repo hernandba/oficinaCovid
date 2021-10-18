@@ -1,14 +1,13 @@
-using System.Collections.Generic;
+using System;
 
 namespace oficinaCovid.App.Dominio
 {
     public class Gobernacion
     {
-        public int Id { get; set; }
-        public string Barrio { get; set; }
-        public int NumeroOficinas { get; set; }
-        public List<Oficina> Oficinas { get; set; }
-        public List<PersonalProveedor> Proveedores { get; set; }
-        public List<PersonalAseo> Aseadores { get; set; }
+        public int id { get; set; }
+        public string nombre { get; set; }
+        public string ciudad { get; set; }
+        public string direccion { get; set; }
+        public int numeroOficinas { get; set; }
     }
 }

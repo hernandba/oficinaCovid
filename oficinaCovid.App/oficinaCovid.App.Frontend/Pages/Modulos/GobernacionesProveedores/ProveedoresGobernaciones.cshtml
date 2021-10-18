@@ -1,0 +1,18 @@
+﻿@page
+@model oficinaCovid.App.Frontend.Pages.ProveedoresGobernacionesModel
+@{
+}
+<form action="" method="post">
+    <input type="hidden" asp-for="gobernacion.id">
+    <div class="form-group">
+        <label asp-for="proveedor.id">Proveedores</label>
+        <select asp-for="proveedor.id" class="form-control">
+            <option value="">Selecciona un proveedor</option>
+            @foreach (var proveedor in Model.proveedores)
+            {
+                <option value="@proveedor.id">@proveedor.nombres @proveedor.apellidos</option>
+            }
+        </select>
+    </div>
+    <button type="submit" class="btn btn-success mt-2">Agregar</button>
+</form>

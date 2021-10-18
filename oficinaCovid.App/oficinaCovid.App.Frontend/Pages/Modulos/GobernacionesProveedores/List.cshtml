@@ -1,0 +1,36 @@
+﻿@page
+@model oficinaCovid.App.Frontend.Pages.GPListModel
+@{
+    var gobernacion = Model.gobernacion.nombre;
+    var gobernacionId = Model.gobernacion.id;
+    ViewData["Title"] = gobernacion + " - Proveedores";
+}
+<h3>@gobernacion</h3>
+<div class="table-responsive">
+    <table class="table table-hover">
+        <thead>
+            <th>Identificación</th>
+            <th>Nombre</th>
+            <th>Servicio realizado</th>
+            <th>Empresa</th>
+            <th>Quitar</th>
+        </thead>
+        <tbody>
+            @foreach (var proveedor in Model.proveedores)
+            {
+                <tr>
+                    <td>@proveedor.identificacion</td>
+                    <td>@proveedor.nombres @proveedor.apellidos</td>
+                    <td>@proveedor.servicioRealizado</td>
+                    <td>@proveedor.nombreEmpresa</td>
+                    <td>
+                        <a asp-page="./EliminarRelacion" asp-route-proveedorid="@proveedor.id" asp-route-gobernacionid="@gobernacionId" class="btn btn-danger">
+                            <i class="fas fa-trash-alt" aria-hidden="true"></i>
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<a asp-page="./ProveedoresGobernaciones" asp-route-gobernacionid="@gobernacionId" class="btn btn-success mt-2">Agregar proveedor</a>

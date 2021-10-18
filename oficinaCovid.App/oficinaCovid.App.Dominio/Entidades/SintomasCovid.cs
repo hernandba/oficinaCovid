@@ -1,13 +1,14 @@
 namespace oficinaCovid.App.Dominio
 {
     public class SintomasCovid
-    {
-        public bool Fiebre {get; set;}
-        public bool PerdidaOlfato {get; set;}
-        public bool PerdidaGusto {get; set;}
-        public bool TosSeca {get; set;}
-        public bool Desaliento {get; set;}
-        public bool DolorGarganta {get; set;}
-        public bool DificultadRespirar {get; set;}
+    {   
+        public int id {get; set;}
+        public bool fiebre {get; set;}
+        public bool perdidaOlfato {get; set;}
+        public bool perdidaGusto {get; set;}
+        public bool tosSeca {get; set;}
+        public bool desaliento {get; set;}
+        public bool dolorGarganta {get; set;}
+        public bool dificultadRespirar {get; set;}
     }
 }

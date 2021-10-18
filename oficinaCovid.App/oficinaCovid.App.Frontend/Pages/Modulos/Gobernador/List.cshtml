@@ -1,0 +1,43 @@
+﻿@page
+@model oficinaCovid.App.Frontend.Pages.GobernadoresListModel
+@{
+    ViewData["Title"] = "Gobernadores y asesores";
+    var gobernacionid = Model.gobernacion.id;
+}
+<h3 class="mb-2">@Model.gobernacion.nombre</h3>
+<div class="table-responsive">
+    <table class="table table-sm table-hover">
+        <thead>
+            <th>Identificación</th>
+            <th>Nombre</th>
+            <th>Rol</th>
+            <th>Editar</th>
+            <th>Eliminar</th>
+        </thead>
+        <tbody>
+            @foreach (var gobernador in Model.gobernadores)
+            {
+                <tr>
+                    <td>@gobernador.identificacion</td>
+                    <td>
+                        <a asp-page="../Diagnostico/DiagnosticoList" asp-route-personaid="@gobernador.id">
+                            @gobernador.nombres @gobernador.apellidos
+                        </a>
+                    </td>
+                    <td>@gobernador.rol</td>
+                    <td>
+                        <a asp-page="./Gobernador" asp-route-gobernacionid="@gobernacionid" asp-route-gobernadorid="@gobernador.id" class="btn btn-primary">
+                            <i class="fas fa-edit" aria-hidden="true"></i>
+                        </a>
+                    </td>
+                    <td>
+                        <a asp-page="./Eliminar" asp-route-gobernacionid="@gobernacionid" asp-route-gobernadorid="@gobernador.id" class="btn btn-danger">
+                            <i class="fas fa-trash-alt" aria-hidden="true"></i>
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<a class="btn btn-success mt-2" asp-page="./Gobernador" asp-route-gobernacionid="@gobernacionid">Registrar</a>

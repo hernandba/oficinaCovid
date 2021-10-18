@@ -1,0 +1,40 @@
+﻿@page
+@model oficinaCovid.App.Frontend.Pages.ListModelSecretario
+@{
+    ViewData["Title"] = "Secretarios";
+    var gobernacionid = Model.gobernacion.id;
+}
+<table class="table table-sm table-hover">
+    <thead>
+        <th>Identificación</th>
+        <th>Nombre</th>
+        <th>Edad</th>
+        <th>Editar</th>
+        <th>Eliminar</th>
+    </thead>
+    <tbody>
+        @foreach (var secretario in Model.secretarios)
+        {
+            <tr>
+                <td>@secretario.identificacion</td>
+                <td>
+                    <a asp-page="../Diagnostico/DiagnosticoList" asp-route-personaid="@secretario.id">
+                        @secretario.nombres @secretario.apellidos
+                    </a>
+                </td>
+                <td>@secretario.edad</td>
+                <td>
+                    <a asp-page="./Secretario" asp-route-secretarioid="@secretario.id" asp-route-gobernacionid="@gobernacionid" class="btn btn-primary">
+                        <i class="fas fa-edit" aria-hidden="true"></i>
+                    </a>
+                </td>
+                <td>
+                    <a asp-page="./EliminarSecretario" asp-route-idsecretario="@secretario.id" asp-route-idgobernacion="@gobernacionid" class="btn btn-danger">
+                        <i class="fas fa-trash-alt" aria-hidden="true"></i>
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a asp-page="./Secretario" asp-route-gobernacionid="@gobernacionid" class="btn btn-success">Registrar secretario</a>

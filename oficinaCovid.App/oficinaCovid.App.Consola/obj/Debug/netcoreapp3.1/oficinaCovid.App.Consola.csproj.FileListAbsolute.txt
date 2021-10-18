@@ -1,0 +1,137 @@
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\oficinaCovid.App.Consola.exe
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\oficinaCovid.App.Consola.deps.json
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\oficinaCovid.App.Consola.runtimeconfig.json
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\oficinaCovid.App.Consola.runtimeconfig.dev.json
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\oficinaCovid.App.Consola.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\oficinaCovid.App.Consola.pdb
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\oficinaCovid.App.Dominio.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\oficinaCovid.App.Persistencia.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\oficinaCovid.App.Persistencia.pdb
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\oficinaCovid.App.Dominio.pdb
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\obj\Debug\netcoreapp3.1\oficinaCovid.App.Consola.csprojAssemblyReference.cache
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\obj\Debug\netcoreapp3.1\oficinaCovid.App.Consola.AssemblyInfoInputs.cache
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\obj\Debug\netcoreapp3.1\oficinaCovid.App.Consola.AssemblyInfo.cs
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\obj\Debug\netcoreapp3.1\oficinaCovid.App.Consola.csproj.CoreCompileInputs.cache
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\obj\Debug\netcoreapp3.1\oficinaCovid.App.Consola.csproj.CopyComplete
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\obj\Debug\netcoreapp3.1\oficinaCovid.App.Consola.dll
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\obj\Debug\netcoreapp3.1\oficinaCovid.App.Consola.pdb
+C:\Users\ydhurtado\Desktop\Misiontic\Ciclo 3\DS-C3-18\Proyecto\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\obj\Debug\netcoreapp3.1\oficinaCovid.App.Consola.genruntimeconfig.cache
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\oficinaCovid.App.Consola.exe
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\oficinaCovid.App.Consola.deps.json
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\oficinaCovid.App.Consola.runtimeconfig.json
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\oficinaCovid.App.Consola.runtimeconfig.dev.json
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\oficinaCovid.App.Consola.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\oficinaCovid.App.Consola.pdb
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\oficinaCovid.App.Dominio.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\oficinaCovid.App.Persistencia.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\oficinaCovid.App.Persistencia.pdb
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\bin\Debug\netcoreapp3.1\oficinaCovid.App.Dominio.pdb
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\obj\Debug\netcoreapp3.1\oficinaCovid.App.Consola.csproj.AssemblyReference.cache
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\obj\Debug\netcoreapp3.1\oficinaCovid.App.Consola.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\obj\Debug\netcoreapp3.1\oficinaCovid.App.Consola.AssemblyInfoInputs.cache
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\obj\Debug\netcoreapp3.1\oficinaCovid.App.Consola.AssemblyInfo.cs
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\obj\Debug\netcoreapp3.1\oficinaCovid.App.Consola.csproj.CoreCompileInputs.cache
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\obj\Debug\netcoreapp3.1\oficinaCovid.App.Consola.csproj.CopyComplete
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\obj\Debug\netcoreapp3.1\oficinaCovid.App.Consola.dll
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\obj\Debug\netcoreapp3.1\oficinaCovid.App.Consola.pdb
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Consola\obj\Debug\netcoreapp3.1\oficinaCovid.App.Consola.genruntimeconfig.cache

@@ -1,0 +1,39 @@
+﻿@page
+@model oficinaCovid.App.Frontend.Pages.OficinaModel
+@{
+    ViewData["Title"] = "Oficina";
+}
+<form action="" method="post" class="col-6 col-md-6 col-sm-6 mt-3">
+    <input type="hidden" asp-for="gobernacion.id">
+    <input type="hidden" asp-for="oficina.id">
+    <div class="form-group">
+        <input asp-for="gobernacion.nombre" id="gobernacion" class="form-control" disabled />
+    </div>
+    <div class="form-group">
+        <label asp-for="oficina.numero">Número de oficina</label>
+        <input type="text" asp-for="oficina.numero" class="form-control"/>
+    </div>
+    <div class="form-group">
+        <label asp-for="oficina.aforo">Aforo</label>
+        <input type="number" asp-for="oficina.aforo" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="secretario.id">Secretario</label>
+        <select asp-for="secretario.id" class="form-control">
+            
+            @if (Model.secretario != null)
+            {
+                <option value="secretario.id" selected>@Model.secretario.nombres @Model.secretario.apellidos</option>
+            } else {
+                <option value="" selected>Selecciona un(a) secretario(a)</option>
+            }
+            @foreach (var secretario in Model.secretarios)
+            {
+                <option value="@secretario.id">@secretario.nombres @secretario.apellidos</option>
+            }
+        </select>
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-success">Guardar cambios</button>
+    </div>
+</form>

@@ -1,0 +1,41 @@
+﻿@page
+@model oficinaCovid.App.Frontend.ListModel
+@{
+    ViewData["Title"] = "Gobernaciones";
+}
+<div class="table-responsive">
+    <table class="table table-sm table-hover">
+            <thead>
+                <th>Id</th>
+                <th>Gobernación</th>
+                <th>Ciudad</th>
+                <th>Dirección</th>
+                <th>Editar</th>
+                <th>Eliminar</th>
+            </thead>
+            <tbody>
+        @foreach (var gobernacion in Model.Gobernaciones)
+        {   
+                <tr>
+                    <td>@gobernacion.id</td>
+                    <td>
+                        <a asp-page="../Modulos/Principal" asp-route-gobernacionid="@gobernacion.id">@gobernacion.nombre</a>
+                    </td>
+                    <td>@gobernacion.ciudad</td>
+                    <td>@gobernacion.direccion</td>
+                    <td>
+                        <a class="btn btn-primary col-sm" asp-page="./CrearGobernacion" asp-route-gobernacionid="@gobernacion.id">
+                            <i class="fas fa-edit" aria-hidden="true"></i>
+                        </a>
+                    </td>
+                    <td>
+                        <a class="btn btn-danger col-sm" asp-page="./EliminarGobernacion" asp-route-gobernacionid="@gobernacion.id">
+                            <i class="fas fa-trash-alt" aria-hidden="true"></i>
+                        </a>
+                    </td>
+                </tr>
+        }
+            </tbody>
+    </table>
+</div>
+<a class="btn btn-success m-2" asp-page="./CrearGobernacion">Registrar Gobernación</a>

@@ -2,8 +2,9 @@ using System;
 
 namespace oficinaCovid.App.Dominio
 {
-    public class GobernadoAsesor : Persona
+    public class GobernadorAsesor : Persona
     {
-        public string Rol { get; set; }
+        public string rol { get; set; }
+        public Gobernacion gobernacion {get; set;}
     }
 }
