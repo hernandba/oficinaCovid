@@ -185,3 +185,9 @@ C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\
 C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Frontend\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
 C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Frontend\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
 C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Frontend\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Frontend\obj\Debug\net5.0\Razor\Pages\Modulos\Diagnostico\Diagnostico.cshtml.g.cs
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Frontend\obj\Debug\net5.0\Razor\Pages\Modulos\Diagnostico\DiagnosticoList.cshtml.g.cs
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Frontend\obj\Debug\net5.0\Razor\Pages\Modulos\Diagnostico\EliminarDiagnostico.cshtml.g.cs
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Frontend\obj\Debug\net5.0\Razor\Pages\Modulos\GobernacionesProveedores\EliminarRelacion.cshtml.g.cs
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Frontend\obj\Debug\net5.0\Razor\Pages\Modulos\GobernacionesProveedores\List.cshtml.g.cs
+C:\Users\herna\Desktop\MisionTIC\Ciclo3\DSoftware\oficinaCovid\oficinaCovid.App\oficinaCovid.App.Frontend\obj\Debug\net5.0\Razor\Pages\Modulos\GobernacionesProveedores\ProveedoresGobernaciones.cshtml.g.cs
