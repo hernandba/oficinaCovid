@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "5waeHA+l0/isnejvW5gpM2GXshhO+Ft5CMV6P6+iTMjwPyGUATZNvJuwM8r5AwqSFkMyV6E06UIh2bqKqi6Mhw==",
+  "dgSpecHash": "x2Q2n4/NKTq9EqPt4rIcJH3kZHO0ANgJEGODeNBRdxXIvWkAeHQiWfYBEW+jF+zm6qew5lsrlUILWbqdDZTXbw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ydhurtado\\Desktop\\Misiontic\\Ciclo 3\\DS-C3-18\\Proyecto\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Dominio\\oficinaCovid.App.Dominio.csproj",
+  "projectFilePath": "C:\\Users\\herna\\Desktop\\MisionTIC\\Ciclo3\\DSoftware\\oficinaCovid\\oficinaCovid.App\\oficinaCovid.App.Dominio\\oficinaCovid.App.Dominio.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ydhurtado\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\ydhurtado\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\herna\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\herna\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }
